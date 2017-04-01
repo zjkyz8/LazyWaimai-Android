@@ -1,7 +1,7 @@
 package com.waimai.context;
 
 import com.cheikh.lazywaimai.model.bean.User;
-import com.cheikh.lazywaimai.util.Constants;
+import com.waimai.util.Constants;
 import com.cheikh.lazywaimai.util.PreferenceUtil;
 
 /**

@@ -30,11 +30,11 @@ import com.waimai.network.RequestCallback;
 import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.EventUtil;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_CLIENT_ID;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_CLIENT_SECRET;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_GRANT_TYPE;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_PASSWORD;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_USER_NAME;
+import static com.waimai.util.Constants.Key.PARAM_CLIENT_ID;
+import static com.waimai.util.Constants.Key.PARAM_CLIENT_SECRET;
+import static com.waimai.util.Constants.Key.PARAM_GRANT_TYPE;
+import static com.waimai.util.Constants.Key.PARAM_PASSWORD;
+import static com.waimai.util.Constants.Key.PARAM_USER_NAME;
 
 @Singleton
 public class UserController extends BaseController<UserController.UserUi, UserController.UserUiCallbacks> {

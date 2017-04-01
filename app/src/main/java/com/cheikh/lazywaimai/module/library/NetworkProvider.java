@@ -13,7 +13,7 @@ import com.cheikh.lazywaimai.module.qualifiers.ApplicationContext;
 import com.cheikh.lazywaimai.module.qualifiers.CacheDirectory;
 import com.cheikh.lazywaimai.module.qualifiers.ShareDirectory;
 import com.waimai.network.RestApiClient;
-import com.cheikh.lazywaimai.util.Constants;
+import com.waimai.util.Constants;
 
 @Module(
     library = true,

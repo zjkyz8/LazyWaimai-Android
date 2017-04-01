@@ -13,12 +13,12 @@ import com.waimai.model.bean.OrderStatus;
 import com.cheikh.lazywaimai.util.DateUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.cheikh.lazywaimai.widget.PicassoImageView;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_ORDER_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_PAYMENT_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_RECEIVED_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_ORDER_AGAIN_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_EVALUATE_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_ORDER_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_PAYMENT_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_RECEIVED_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_ORDER_AGAIN_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_EVALUATE_CLICKED;
 
 /**
  * author: cheikh.wang on 16/11/23

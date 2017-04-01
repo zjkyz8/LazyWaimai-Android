@@ -4,7 +4,7 @@ import android.support.annotation.IntDef;
 
 import java.lang.annotation.Retention;
 
-import com.cheikh.lazywaimai.util.Constants;
+import com.waimai.util.Constants;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 

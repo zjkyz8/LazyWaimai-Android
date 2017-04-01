@@ -12,13 +12,13 @@ import com.cheikh.lazywaimai.ui.adapter.OrderListAdapter;
 
 import java.util.List;
 
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_ORDER_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_PAYMENT_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_RECEIVED_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_ORDER_AGAIN_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_EVALUATE_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_ORDER_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_PAYMENT_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_RECEIVED_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_ORDER_AGAIN_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_EVALUATE_CLICKED;
+import static com.waimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
 
 public class OrdersFragment extends BaseListFragment<Order, OrderController.OrderUiCallbacks>
         implements OrderController.OrderListUi {

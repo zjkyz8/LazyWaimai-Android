@@ -22,14 +22,14 @@ import com.waimai.context.AppCookie;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.Token;
 import com.cheikh.lazywaimai.util.StringFetcher;
-import static com.cheikh.lazywaimai.util.Constants.HttpCode.HTTP_NETWORK_ERROR;
-import static com.cheikh.lazywaimai.util.Constants.HttpCode.HTTP_SERVER_ERROR;
-import static com.cheikh.lazywaimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
-import static com.cheikh.lazywaimai.util.Constants.HttpCode.HTTP_UNKNOWN_ERROR;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_CLIENT_ID;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_CLIENT_SECRET;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_GRANT_TYPE;
-import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_REFRESH_TOKEN;
+import static com.waimai.util.Constants.HttpCode.HTTP_NETWORK_ERROR;
+import static com.waimai.util.Constants.HttpCode.HTTP_SERVER_ERROR;
+import static com.waimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
+import static com.waimai.util.Constants.HttpCode.HTTP_UNKNOWN_ERROR;
+import static com.waimai.util.Constants.Key.PARAM_CLIENT_ID;
+import static com.waimai.util.Constants.Key.PARAM_CLIENT_SECRET;
+import static com.waimai.util.Constants.Key.PARAM_GRANT_TYPE;
+import static com.waimai.util.Constants.Key.PARAM_REFRESH_TOKEN;
 
 public class ResponseErrorProxy implements InvocationHandler {
 

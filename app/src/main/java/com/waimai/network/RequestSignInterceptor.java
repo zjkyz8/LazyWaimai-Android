@@ -31,7 +31,7 @@ import okhttp3.Response;
 import okio.Buffer;
 import com.waimai.context.AppConfig;
 import com.cheikh.lazywaimai.util.Base64;
-import com.cheikh.lazywaimai.util.Constants.Header;
+import com.waimai.util.Constants.Header;
 import com.cheikh.lazywaimai.util.StringUtil;
 
 public class RequestSignInterceptor implements Interceptor {

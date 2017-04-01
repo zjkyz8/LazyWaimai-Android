@@ -28,7 +28,7 @@ import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.EventUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;
-import static com.cheikh.lazywaimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
+import static com.waimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
 
 /**
  * author: cheikh.wang on 17/1/5

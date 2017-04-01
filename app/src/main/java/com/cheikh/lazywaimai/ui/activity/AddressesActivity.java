@@ -26,9 +26,9 @@ import com.cheikh.lazywaimai.util.ToastUtil;
 import com.cheikh.lazywaimai.widget.MultiStateView;
 import com.cheikh.lazywaimai.widget.refresh.OnRefreshListener;
 import com.cheikh.lazywaimai.widget.refresh.RefreshLayout;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_ADDRESS_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_DELETE_BTN_CLICKED;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_EDIT_BTN_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_ADDRESS_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_DELETE_BTN_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_EDIT_BTN_CLICKED;
 
 /**
  * author: cheikh.wang on 17/1/5

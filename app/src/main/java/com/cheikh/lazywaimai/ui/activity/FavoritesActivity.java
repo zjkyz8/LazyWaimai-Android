@@ -6,7 +6,7 @@ import com.waimai.context.AppContext;
 import com.waimai.controller.UserController;
 import com.waimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.ui.adapter.FavoriteListAdapter;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
 
 /**
  * author: cheikh.wang on 17/01/11

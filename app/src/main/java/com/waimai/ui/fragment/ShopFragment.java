@@ -7,7 +7,7 @@ import com.waimai.context.AppContext;
 import com.waimai.controller.BusinessController;
 import com.waimai.model.bean.Business;
 import com.waimai.ui.adapter.BusinessListAdapter;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
 
 public class ShopFragment extends BaseListFragment<Business, BusinessController.BusinessUiCallbacks>
         implements BusinessController.BusinessListUi {

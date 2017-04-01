@@ -9,7 +9,7 @@ import com.cheikh.lazywaimai.model.bean.PaymentPlatform;
 import com.cheikh.lazywaimai.widget.PicassoImageView;
 import butterknife.Bind;
 import butterknife.OnClick;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_PAYMENT_PLATFORM_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_PAYMENT_PLATFORM_CLICKED;
 
 /**
  * author: cheikh.wang on 17/1/12

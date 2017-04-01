@@ -11,7 +11,7 @@ import com.cheikh.lazywaimai.model.ShoppingCart;
 import com.waimai.model.bean.Business;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.cheikh.lazywaimai.widget.PicassoImageView;
-import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
+import static com.waimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
 
 /**
  * author: cheikh.wang on 16/11/23

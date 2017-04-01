@@ -24,7 +24,7 @@ import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.EventUtil;
 
-import static com.cheikh.lazywaimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
+import static com.waimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
 
 public class BusinessController extends BaseController<BusinessController.BusinessUi,
         BusinessController.BusinessUiCallbacks> {

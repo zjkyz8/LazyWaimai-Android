@@ -23,7 +23,7 @@ import com.cheikh.lazywaimai.network.service.BusinessService;
 import com.cheikh.lazywaimai.network.service.CommonService;
 import com.cheikh.lazywaimai.network.service.OrderService;
 import com.cheikh.lazywaimai.network.service.TokenService;
-import com.cheikh.lazywaimai.util.Constants.Header;
+import com.waimai.util.Constants.Header;
 import com.cheikh.lazywaimai.util.SystemUtil;
 
 public class RestApiClient {
