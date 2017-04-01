@@ -8,7 +8,7 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-import com.cheikh.lazywaimai.context.AppCookie;
+import com.waimai.context.AppCookie;
 import com.cheikh.lazywaimai.module.qualifiers.ApplicationContext;
 import com.cheikh.lazywaimai.module.qualifiers.CacheDirectory;
 import com.cheikh.lazywaimai.module.qualifiers.ShareDirectory;

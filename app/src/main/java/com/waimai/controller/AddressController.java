@@ -11,7 +11,7 @@ import com.waimai.base.BaseController;
 import com.cheikh.lazywaimai.model.bean.Address;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.User;
-import com.cheikh.lazywaimai.network.RequestCallback;
+import com.waimai.network.RequestCallback;
 import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.ui.Display;
 

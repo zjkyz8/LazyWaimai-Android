@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.context;
+package com.waimai.context;
 
 import com.cheikh.lazywaimai.model.bean.User;
 import com.cheikh.lazywaimai.util.Constants;

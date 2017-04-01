@@ -18,7 +18,7 @@ import rx.functions.Func1;
 import com.waimai.BuildConfig;
 import com.waimai.R;
 import com.waimai.context.AppConfig;
-import com.cheikh.lazywaimai.context.AppCookie;
+import com.waimai.context.AppCookie;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.Token;
 import com.cheikh.lazywaimai.util.StringFetcher;
