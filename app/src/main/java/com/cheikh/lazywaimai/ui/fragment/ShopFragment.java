@@ -4,7 +4,7 @@ import com.waimai.R;
 import com.waimai.base.BaseController;
 import com.waimai.base.BaseListFragment;
 import com.waimai.context.AppContext;
-import com.cheikh.lazywaimai.controller.BusinessController;
+import com.waimai.controller.BusinessController;
 import com.cheikh.lazywaimai.model.bean.Business;
 import com.cheikh.lazywaimai.ui.adapter.BusinessListAdapter;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;

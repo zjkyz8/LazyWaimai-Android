@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.network;
+package com.waimai.network;
 
 import android.text.TextUtils;
 import android.util.Log;

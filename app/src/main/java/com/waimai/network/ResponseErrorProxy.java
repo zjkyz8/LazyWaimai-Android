@@ -1,5 +1,6 @@
-package com.cheikh.lazywaimai.network;
+package com.waimai.network;
 
+import com.waimai.network.GsonHelper;
 import com.google.gson.JsonParseException;
 import com.orhanobut.logger.Logger;
 import org.apache.http.conn.ConnectTimeoutException;

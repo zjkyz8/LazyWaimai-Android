@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.network;
+package com.waimai.network;
 
 import android.content.Context;
 import java.io.File;

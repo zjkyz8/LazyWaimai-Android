@@ -3,7 +3,7 @@ package com.cheikh.lazywaimai.ui.activity;
 import com.waimai.base.BaseController;
 import com.waimai.base.BaseListActivity;
 import com.waimai.context.AppContext;
-import com.cheikh.lazywaimai.controller.UserController;
+import com.waimai.controller.UserController;
 import com.cheikh.lazywaimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.ui.adapter.FavoriteListAdapter;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;

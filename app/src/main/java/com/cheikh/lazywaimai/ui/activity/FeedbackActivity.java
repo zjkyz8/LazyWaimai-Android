@@ -9,7 +9,7 @@ import com.waimai.R;
 import com.waimai.base.BaseActivity;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppContext;
-import com.cheikh.lazywaimai.controller.MainController;
+import com.waimai.controller.MainController;
 import com.cheikh.lazywaimai.model.bean.Feedback;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.ui.Display;

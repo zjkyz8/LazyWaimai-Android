@@ -5,7 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import com.waimai.context.AppContext;
-import com.cheikh.lazywaimai.controller.MainController;
+import com.waimai.controller.MainController;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.ActivityStack;

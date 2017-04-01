@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.controller;
+package com.waimai.controller;
 
 import com.waimai.R;
 import com.cheikh.lazywaimai.model.bean.Favorite;
@@ -20,7 +20,7 @@ import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
 import com.cheikh.lazywaimai.model.event.ShoppingCartChangeEvent;
 import com.cheikh.lazywaimai.network.RequestCallback;
-import com.cheikh.lazywaimai.network.RestApiClient;
+import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.EventUtil;
 

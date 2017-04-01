@@ -18,7 +18,7 @@ import com.waimai.R;
 import com.waimai.base.BaseActivity;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppContext;
-import com.cheikh.lazywaimai.controller.MainController;
+import com.waimai.controller.MainController;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.ui.fragment.OrdersFragment;

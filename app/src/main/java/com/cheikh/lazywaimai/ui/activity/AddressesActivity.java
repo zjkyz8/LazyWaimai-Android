@@ -15,7 +15,7 @@ import com.waimai.R;
 import com.waimai.base.BaseActivity;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppContext;
-import com.cheikh.lazywaimai.controller.AddressController;
+import com.waimai.controller.AddressController;
 import com.cheikh.lazywaimai.model.bean.Address;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.util.ContentView;

@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.controller;
+package com.waimai.controller;
 
 import android.os.Handler;
 import com.cheikh.lazywaimai.model.bean.CartInfo;
@@ -24,7 +24,7 @@ import com.cheikh.lazywaimai.model.bean.ResultsPage;
 import com.cheikh.lazywaimai.model.bean.SettleResult;
 import com.cheikh.lazywaimai.model.event.AccountChangedEvent;
 import com.cheikh.lazywaimai.network.RequestCallback;
-import com.cheikh.lazywaimai.network.RestApiClient;
+import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.EventUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;

@@ -12,7 +12,7 @@ import com.waimai.base.BaseActivity;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppContext;
 import com.cheikh.lazywaimai.context.AppCookie;
-import com.cheikh.lazywaimai.controller.UserController;
+import com.waimai.controller.UserController;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.SystemUtil;

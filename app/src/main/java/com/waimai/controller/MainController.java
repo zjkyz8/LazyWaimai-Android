@@ -1,10 +1,10 @@
-package com.cheikh.lazywaimai.controller;
+package com.waimai.controller;
 
 import com.cheikh.lazywaimai.model.bean.Feedback;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.Setting;
 import com.cheikh.lazywaimai.network.RequestCallback;
-import com.cheikh.lazywaimai.network.RestApiClient;
+import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.repository.SettingManager;
 import com.google.common.base.Preconditions;
 import javax.inject.Inject;

@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.controller;
+package com.waimai.controller;
 
 import com.cheikh.lazywaimai.model.bean.Business;
 import com.cheikh.lazywaimai.model.bean.Favorite;
@@ -27,7 +27,7 @@ import com.cheikh.lazywaimai.model.bean.Token;
 import com.cheikh.lazywaimai.model.bean.User;
 import com.cheikh.lazywaimai.model.event.AccountChangedEvent;
 import com.cheikh.lazywaimai.network.RequestCallback;
-import com.cheikh.lazywaimai.network.RestApiClient;
+import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.EventUtil;
 import static com.cheikh.lazywaimai.util.Constants.Key.PARAM_CLIENT_ID;

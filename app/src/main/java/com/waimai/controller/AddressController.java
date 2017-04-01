@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.controller;
+package com.waimai.controller;
 
 import android.text.TextUtils;
 import com.google.common.base.Preconditions;
@@ -12,7 +12,7 @@ import com.cheikh.lazywaimai.model.bean.Address;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.User;
 import com.cheikh.lazywaimai.network.RequestCallback;
-import com.cheikh.lazywaimai.network.RestApiClient;
+import com.waimai.network.RestApiClient;
 import com.cheikh.lazywaimai.ui.Display;
 
 public class AddressController extends BaseController<AddressController.AddressUi, AddressController.AddressUiCallbacks> {
