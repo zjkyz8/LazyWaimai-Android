@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 /**
  * 默认的头部下拉刷新view

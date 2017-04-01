@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 /**
  * author：cheikh on 16/5/14 14:32

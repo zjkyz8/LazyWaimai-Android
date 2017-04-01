@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.cheikh.lazywaimai.model.ShoppingCart;
 import com.cheikh.lazywaimai.model.bean.Product;
 import com.cheikh.lazywaimai.model.bean.ProductCategory;

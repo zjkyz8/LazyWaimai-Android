@@ -4,7 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.waimai.base.BasePermissionActivity;
 
 

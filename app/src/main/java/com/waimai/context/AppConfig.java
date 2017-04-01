@@ -1,7 +1,7 @@
-package com.cheikh.lazywaimai.context;
+package com.waimai.context;
 
 import java.io.File;
-import com.cheikh.lazywaimai.BuildConfig;
+import com.waimai.BuildConfig;
 import com.cheikh.lazywaimai.util.SDCardUtil;
 
 public class AppConfig {

@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.Button;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.cheikh.lazywaimai.util.CountDownTimer;
 
 public class CountDownTimerView extends Button {

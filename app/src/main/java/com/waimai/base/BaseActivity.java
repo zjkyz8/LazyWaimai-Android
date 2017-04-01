@@ -8,7 +8,7 @@ import android.support.annotation.StringRes;
 import android.support.v7.widget.Toolbar;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.waimai.base.CoreActivity;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.Display;

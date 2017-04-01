@@ -29,7 +29,7 @@ import android.widget.LinearLayout;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 /**
  * 购物车的加减号控件

@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.context;
+package com.waimai.context;
 
 import android.app.Application;
 import com.orhanobut.logger.LogLevel;

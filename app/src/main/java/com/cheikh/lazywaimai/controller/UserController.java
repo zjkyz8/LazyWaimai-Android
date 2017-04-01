@@ -20,7 +20,7 @@ import rx.functions.Action0;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 import com.waimai.base.BaseController;
-import com.cheikh.lazywaimai.context.AppConfig;
+import com.waimai.context.AppConfig;
 import com.cheikh.lazywaimai.context.AppCookie;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.Token;

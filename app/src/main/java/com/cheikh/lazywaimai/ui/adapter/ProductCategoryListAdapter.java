@@ -2,7 +2,7 @@ package com.cheikh.lazywaimai.ui.adapter;
 
 import android.view.View;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.waimai.base.BaseListAdapter;
 import com.cheikh.lazywaimai.model.bean.ProductCategory;
 import com.cheikh.lazywaimai.ui.adapter.holder.ProductCategoryItemViewHolder;

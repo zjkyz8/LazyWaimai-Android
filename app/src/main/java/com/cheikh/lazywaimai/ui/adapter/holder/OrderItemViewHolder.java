@@ -5,7 +5,7 @@ import android.widget.TextView;
 import java.util.Date;
 import butterknife.Bind;
 import butterknife.OnClick;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.model.bean.Business;
 import com.cheikh.lazywaimai.model.bean.Order;

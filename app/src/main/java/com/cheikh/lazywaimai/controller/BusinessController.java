@@ -1,6 +1,6 @@
 package com.cheikh.lazywaimai.controller;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.cheikh.lazywaimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.google.common.base.Preconditions;

@@ -30,7 +30,7 @@ import android.widget.ImageView;
 
 import com.google.common.base.Objects;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 /**
  * Utilities for Animation.

@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
-import com.cheikh.lazywaimai.context.AppConfig;
+import com.waimai.context.AppConfig;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.ui.Display;
 

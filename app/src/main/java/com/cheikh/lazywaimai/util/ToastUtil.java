@@ -4,7 +4,7 @@ import android.content.Context;
 import android.support.annotation.StringRes;
 import android.widget.Toast;
 
-import com.cheikh.lazywaimai.context.AppConfig;
+import com.waimai.context.AppConfig;
 
 public final class ToastUtil {
 

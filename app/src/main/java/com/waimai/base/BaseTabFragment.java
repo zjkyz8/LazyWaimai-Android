@@ -8,7 +8,7 @@ import android.support.v4.view.ViewPager;
 import java.util.ArrayList;
 import java.util.List;
 import butterknife.Bind;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.widget.SlidingTabLayout;
 

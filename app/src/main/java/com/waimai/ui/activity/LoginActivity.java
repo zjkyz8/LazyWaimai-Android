@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import android.text.TextUtils;
 import android.view.View;
@@ -9,10 +9,10 @@ import android.widget.TextView;
 import butterknife.Bind;
 import butterknife.OnClick;
 import butterknife.OnTextChanged;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.waimai.base.BaseActivity;
 import com.waimai.base.BaseController;
-import com.cheikh.lazywaimai.context.AppContext;
+import com.waimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.UserController;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.util.ContentView;
@@ -21,10 +21,6 @@ import com.cheikh.lazywaimai.util.StringUtil;
 import com.cheikh.lazywaimai.util.SystemUtil;
 import com.cheikh.lazywaimai.util.ToastUtil;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
 @ContentView(R.layout.activity_login)
 public class LoginActivity extends BaseActivity<UserController.UserUiCallbacks>
         implements UserController.UserLoginUi {

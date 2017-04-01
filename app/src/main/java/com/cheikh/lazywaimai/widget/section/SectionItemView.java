@@ -10,7 +10,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.cheikh.lazywaimai.util.DensityUtil;
 
 public abstract class SectionItemView extends FrameLayout {

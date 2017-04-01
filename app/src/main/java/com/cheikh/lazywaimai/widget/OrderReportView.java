@@ -13,7 +13,7 @@ import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.cheikh.lazywaimai.model.bean.Business;
 import com.cheikh.lazywaimai.model.bean.CartInfo;
 import com.cheikh.lazywaimai.model.bean.ShoppingEntity;

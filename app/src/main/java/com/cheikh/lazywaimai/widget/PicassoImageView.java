@@ -17,8 +17,8 @@ import com.squareup.picasso.Picasso;
 import com.squareup.picasso.RequestCreator;
 import com.squareup.picasso.Target;
 
-import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.context.AppConfig;
+import com.waimai.R;
+import com.waimai.context.AppConfig;
 import com.cheikh.lazywaimai.model.bean.Business;
 import com.cheikh.lazywaimai.model.bean.Product;
 import com.cheikh.lazywaimai.model.bean.User;

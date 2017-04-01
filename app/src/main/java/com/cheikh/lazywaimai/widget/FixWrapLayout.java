@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import java.util.ArrayList;
 import java.util.List;
 

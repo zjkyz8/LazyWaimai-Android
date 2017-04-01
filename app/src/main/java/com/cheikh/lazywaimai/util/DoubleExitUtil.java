@@ -6,7 +6,7 @@ import android.os.Looper;
 import android.view.KeyEvent;
 import android.widget.Toast;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 /***
  * 双击退出

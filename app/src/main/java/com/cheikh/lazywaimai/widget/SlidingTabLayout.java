@@ -31,7 +31,7 @@ import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
 import android.widget.TextView;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 public class SlidingTabLayout extends HorizontalScrollView {
 

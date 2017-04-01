@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.widget.LoadingDialog;
 

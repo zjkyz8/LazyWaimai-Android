@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 /**
  * 一个提供多种状态切换显示的 layout 组件

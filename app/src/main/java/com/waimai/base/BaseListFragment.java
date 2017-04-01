@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import java.util.List;
 import butterknife.Bind;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.waimai.util.ViewEventListener;

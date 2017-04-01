@@ -1,7 +1,7 @@
 package com.cheikh.lazywaimai.util;
 
-import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.context.AppContext;
+import com.waimai.R;
+import com.waimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.BusinessController;
 
 public class StringFetcher {

@@ -1,9 +1,9 @@
 package com.cheikh.lazywaimai.ui.fragment;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.waimai.base.BaseController;
 import com.waimai.base.BaseListFragment;
-import com.cheikh.lazywaimai.context.AppContext;
+import com.waimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.OrderController;
 import com.cheikh.lazywaimai.model.bean.Order;
 import com.cheikh.lazywaimai.model.bean.Product;

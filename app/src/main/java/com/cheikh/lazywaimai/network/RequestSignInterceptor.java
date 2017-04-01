@@ -29,7 +29,7 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 import okio.Buffer;
-import com.cheikh.lazywaimai.context.AppConfig;
+import com.waimai.context.AppConfig;
 import com.cheikh.lazywaimai.util.Base64;
 import com.cheikh.lazywaimai.util.Constants.Header;
 import com.cheikh.lazywaimai.util.StringUtil;

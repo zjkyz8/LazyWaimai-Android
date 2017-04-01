@@ -6,7 +6,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 public class SectionTextItemView extends SectionItemView {
 

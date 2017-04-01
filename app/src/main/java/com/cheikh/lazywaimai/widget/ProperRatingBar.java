@@ -33,7 +33,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 
 
 public class ProperRatingBar extends LinearLayout {

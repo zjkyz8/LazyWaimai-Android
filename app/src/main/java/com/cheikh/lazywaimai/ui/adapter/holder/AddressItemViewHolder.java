@@ -4,7 +4,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import butterknife.Bind;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.model.bean.Address;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_ADDRESS_CLICKED;

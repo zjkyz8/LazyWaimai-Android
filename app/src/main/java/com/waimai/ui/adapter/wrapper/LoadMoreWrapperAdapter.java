@@ -3,7 +3,7 @@ package com.waimai.ui.adapter.wrapper;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
-import com.cheikh.lazywaimai.R;
+import com.waimai.R;
 import com.waimai.base.BaseAdapter;
 import com.waimai.base.BaseWrapperAdapter;
 

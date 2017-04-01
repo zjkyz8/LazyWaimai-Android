@@ -2,7 +2,7 @@ package com.cheikh.lazywaimai.ui.activity;
 
 import com.waimai.base.BaseController;
 import com.waimai.base.BaseListActivity;
-import com.cheikh.lazywaimai.context.AppContext;
+import com.waimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.UserController;
 import com.cheikh.lazywaimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.ui.adapter.FavoriteListAdapter;
