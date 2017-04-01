@@ -16,7 +16,7 @@ import com.waimai.base.BaseActivity;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppContext;
 import com.waimai.controller.OrderController;
-import com.cheikh.lazywaimai.model.ShoppingCart;
+import com.waimai.model.ShoppingCart;
 import com.waimai.model.bean.CartInfo;
 import com.waimai.model.bean.Order;
 import com.waimai.model.bean.PayMethod;

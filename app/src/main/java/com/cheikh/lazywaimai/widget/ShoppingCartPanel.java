@@ -17,7 +17,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.waimai.R;
-import com.cheikh.lazywaimai.model.ShoppingCart;
+import com.waimai.model.ShoppingCart;
 import com.waimai.model.bean.ShoppingEntity;
 import com.cheikh.lazywaimai.ui.adapter.ShoppingCartListAdapter;
 

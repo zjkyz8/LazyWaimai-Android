@@ -18,7 +18,7 @@ import com.waimai.base.BaseController;
 import com.waimai.base.BaseFragment;
 import com.waimai.context.AppContext;
 import com.waimai.controller.BusinessController;
-import com.cheikh.lazywaimai.model.ShoppingCart;
+import com.waimai.model.ShoppingCart;
 import com.waimai.model.bean.Business;
 import com.waimai.model.bean.ProductCategory;
 import com.cheikh.lazywaimai.model.bean.ResponseError;

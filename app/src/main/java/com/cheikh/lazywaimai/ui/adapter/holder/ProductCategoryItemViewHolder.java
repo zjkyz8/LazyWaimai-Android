@@ -7,7 +7,7 @@ import butterknife.Bind;
 import cn.bingoogolapple.badgeview.BGABadgeFrameLayout;
 import com.waimai.R;
 import com.waimai.base.BaseViewHolder;
-import com.cheikh.lazywaimai.model.ShoppingCart;
+import com.waimai.model.ShoppingCart;
 import com.waimai.model.bean.ProductCategory;
 
 /**

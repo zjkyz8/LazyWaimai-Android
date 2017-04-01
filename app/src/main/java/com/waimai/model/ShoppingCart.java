@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.model;
+package com.waimai.model;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,11 +10,6 @@ import com.waimai.model.bean.ShoppingEntity;
 import com.cheikh.lazywaimai.model.event.ShoppingCartChangeEvent;
 import com.cheikh.lazywaimai.util.EventUtil;
 
-/**
- * author：cheikh on 16/5/9 14:55
- * email：wanghonghi@126.com
- * 购物车单例类
- */
 public class ShoppingCart {
 
     private String mBusinessId;

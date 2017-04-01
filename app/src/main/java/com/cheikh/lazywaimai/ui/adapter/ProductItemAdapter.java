@@ -12,7 +12,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import com.waimai.R;
-import com.cheikh.lazywaimai.model.ShoppingCart;
+import com.waimai.model.ShoppingCart;
 import com.waimai.model.bean.Product;
 import com.waimai.model.bean.ProductCategory;
 import com.cheikh.lazywaimai.util.CollectionUtil;

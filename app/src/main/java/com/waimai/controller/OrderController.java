@@ -16,7 +16,7 @@ import rx.schedulers.Schedulers;
 import com.waimai.R;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppCookie;
-import com.cheikh.lazywaimai.model.ShoppingCart;
+import com.waimai.model.ShoppingCart;
 import com.waimai.model.bean.Business;
 import com.waimai.model.bean.Order;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
