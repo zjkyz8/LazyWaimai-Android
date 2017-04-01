@@ -15,7 +15,7 @@ import com.waimai.base.BaseController;
 import com.waimai.base.BaseViewHolder;
 import com.waimai.context.AppContext;
 import com.waimai.controller.OrderController;
-import com.cheikh.lazywaimai.model.bean.Order;
+import com.waimai.model.bean.Order;
 import com.cheikh.lazywaimai.model.bean.PaymentPlatform;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.ui.adapter.PlatformListAdapter;

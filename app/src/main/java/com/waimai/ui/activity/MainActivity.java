@@ -22,7 +22,7 @@ import com.waimai.controller.MainController;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.ui.fragment.OrdersFragment;
-import com.cheikh.lazywaimai.ui.fragment.ShopFragment;
+import com.waimai.ui.fragment.ShopFragment;
 import com.cheikh.lazywaimai.ui.fragment.UserCenterFragment;
 import com.cheikh.lazywaimai.util.ActivityStack;
 import com.cheikh.lazywaimai.util.DoubleExitUtil;

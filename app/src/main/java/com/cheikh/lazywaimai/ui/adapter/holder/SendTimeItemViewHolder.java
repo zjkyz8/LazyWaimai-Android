@@ -5,7 +5,7 @@ import android.widget.TextView;
 
 import butterknife.Bind;
 import com.waimai.base.BaseViewHolder;
-import com.cheikh.lazywaimai.model.bean.SettleResult;
+import com.waimai.model.bean.SettleResult;
 
 /**
  * author: cheikh.wang on 16/11/23

@@ -1,10 +1,10 @@
-package com.cheikh.lazywaimai.ui.adapter;
+package com.waimai.ui.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import com.waimai.R;
 import com.waimai.base.BaseAdapter;
-import com.cheikh.lazywaimai.model.bean.Business;
+import com.waimai.model.bean.Business;
 import com.cheikh.lazywaimai.ui.adapter.holder.BusinessItemViewHolder;
 
 /**

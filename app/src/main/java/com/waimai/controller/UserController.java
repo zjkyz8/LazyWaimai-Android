@@ -1,7 +1,7 @@
 package com.waimai.controller;
 
-import com.cheikh.lazywaimai.model.bean.Business;
-import com.cheikh.lazywaimai.model.bean.Favorite;
+import com.waimai.model.bean.Business;
+import com.waimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
 import com.google.common.base.Preconditions;
 import com.squareup.otto.Subscribe;

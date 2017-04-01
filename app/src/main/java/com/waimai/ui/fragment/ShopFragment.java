@@ -1,18 +1,14 @@
-package com.cheikh.lazywaimai.ui.fragment;
+package com.waimai.ui.fragment;
 
 import com.waimai.R;
 import com.waimai.base.BaseController;
 import com.waimai.base.BaseListFragment;
 import com.waimai.context.AppContext;
 import com.waimai.controller.BusinessController;
-import com.cheikh.lazywaimai.model.bean.Business;
-import com.cheikh.lazywaimai.ui.adapter.BusinessListAdapter;
+import com.waimai.model.bean.Business;
+import com.waimai.ui.adapter.BusinessListAdapter;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
 
-/**
- * author: cheikh.wang on 16/11/23
- * email: wanghonghi@126.com
- */
 public class ShopFragment extends BaseListFragment<Business, BusinessController.BusinessUiCallbacks>
         implements BusinessController.BusinessListUi {
 

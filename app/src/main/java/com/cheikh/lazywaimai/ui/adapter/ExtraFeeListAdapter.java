@@ -4,7 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import com.waimai.R;
 import com.waimai.base.BaseAdapter;
-import com.cheikh.lazywaimai.model.bean.CartInfo;
+import com.waimai.model.bean.CartInfo;
 import com.cheikh.lazywaimai.ui.adapter.holder.ExtraFeeItemViewHolder;
 
 /**

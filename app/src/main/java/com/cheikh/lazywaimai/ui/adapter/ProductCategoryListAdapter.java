@@ -4,7 +4,7 @@ import android.view.View;
 
 import com.waimai.R;
 import com.waimai.base.BaseListAdapter;
-import com.cheikh.lazywaimai.model.bean.ProductCategory;
+import com.waimai.model.bean.ProductCategory;
 import com.cheikh.lazywaimai.ui.adapter.holder.ProductCategoryItemViewHolder;
 
 public class ProductCategoryListAdapter extends BaseListAdapter<ProductCategory, ProductCategoryItemViewHolder> {

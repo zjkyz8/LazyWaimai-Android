@@ -19,8 +19,8 @@ import com.squareup.picasso.Target;
 
 import com.waimai.R;
 import com.waimai.context.AppConfig;
-import com.cheikh.lazywaimai.model.bean.Business;
-import com.cheikh.lazywaimai.model.bean.Product;
+import com.waimai.model.bean.Business;
+import com.waimai.model.bean.Product;
 import com.cheikh.lazywaimai.model.bean.User;
 import com.cheikh.lazywaimai.util.AnimationUtils;
 

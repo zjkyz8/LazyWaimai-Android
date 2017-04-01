@@ -1,6 +1,6 @@
 package com.cheikh.lazywaimai.ui.fragment;
 
-import com.cheikh.lazywaimai.model.bean.Business;
+import com.waimai.model.bean.Business;
 
 public interface BusinessNameClickHandle {
 

@@ -8,7 +8,7 @@ import cn.bingoogolapple.badgeview.BGABadgeFrameLayout;
 import com.waimai.R;
 import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.model.ShoppingCart;
-import com.cheikh.lazywaimai.model.bean.ProductCategory;
+import com.waimai.model.bean.ProductCategory;
 
 /**
  * author: cheikh.wang on 16/11/23

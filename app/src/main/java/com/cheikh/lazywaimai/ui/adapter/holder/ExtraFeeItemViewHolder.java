@@ -7,7 +7,7 @@ import android.widget.TextView;
 import butterknife.Bind;
 import com.waimai.R;
 import com.waimai.base.BaseViewHolder;
-import com.cheikh.lazywaimai.model.bean.CartInfo;
+import com.waimai.model.bean.CartInfo;
 import com.cheikh.lazywaimai.util.StringFetcher;
 
 /**

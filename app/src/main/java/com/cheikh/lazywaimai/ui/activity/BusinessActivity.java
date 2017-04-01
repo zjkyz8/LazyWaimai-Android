@@ -14,7 +14,7 @@ import com.waimai.base.BaseController;
 import com.waimai.base.BaseTabActivity;
 import com.waimai.context.AppContext;
 import com.waimai.controller.BusinessController;
-import com.cheikh.lazywaimai.model.bean.Business;
+import com.waimai.model.bean.Business;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.ui.fragment.BusinessDetailFragment;
 import com.cheikh.lazywaimai.ui.fragment.CommentFragment;

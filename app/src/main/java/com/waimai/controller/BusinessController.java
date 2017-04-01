@@ -1,7 +1,7 @@
 package com.waimai.controller;
 
 import com.waimai.R;
-import com.cheikh.lazywaimai.model.bean.Favorite;
+import com.waimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.google.common.base.Preconditions;
 import com.squareup.otto.Subscribe;
@@ -14,8 +14,8 @@ import rx.schedulers.Schedulers;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppCookie;
 import com.cheikh.lazywaimai.model.ShoppingCart;
-import com.cheikh.lazywaimai.model.bean.Business;
-import com.cheikh.lazywaimai.model.bean.ProductCategory;
+import com.waimai.model.bean.Business;
+import com.waimai.model.bean.ProductCategory;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
 import com.cheikh.lazywaimai.model.event.ShoppingCartChangeEvent;

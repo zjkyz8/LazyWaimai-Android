@@ -1,7 +1,7 @@
 package com.waimai.controller;
 
 import android.os.Handler;
-import com.cheikh.lazywaimai.model.bean.CartInfo;
+import com.waimai.model.bean.CartInfo;
 import com.cheikh.lazywaimai.model.bean.PaymentPlatform;
 import com.cheikh.lazywaimai.repository.SettingManager;
 import com.google.common.base.Preconditions;
@@ -17,11 +17,11 @@ import com.waimai.R;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppCookie;
 import com.cheikh.lazywaimai.model.ShoppingCart;
-import com.cheikh.lazywaimai.model.bean.Business;
-import com.cheikh.lazywaimai.model.bean.Order;
+import com.waimai.model.bean.Business;
+import com.waimai.model.bean.Order;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
-import com.cheikh.lazywaimai.model.bean.SettleResult;
+import com.waimai.model.bean.SettleResult;
 import com.cheikh.lazywaimai.model.event.AccountChangedEvent;
 import com.waimai.network.RequestCallback;
 import com.waimai.network.RestApiClient;

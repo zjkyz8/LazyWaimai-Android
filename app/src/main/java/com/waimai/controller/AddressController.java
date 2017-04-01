@@ -8,7 +8,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action0;
 import rx.schedulers.Schedulers;
 import com.waimai.base.BaseController;
-import com.cheikh.lazywaimai.model.bean.Address;
+import com.waimai.model.bean.Address;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.User;
 import com.waimai.network.RequestCallback;

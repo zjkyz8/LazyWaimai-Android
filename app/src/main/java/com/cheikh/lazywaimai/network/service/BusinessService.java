@@ -6,9 +6,9 @@ import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 import rx.Observable;
-import com.cheikh.lazywaimai.model.bean.Business;
-import com.cheikh.lazywaimai.model.bean.Favorite;
-import com.cheikh.lazywaimai.model.bean.ProductCategory;
+import com.waimai.model.bean.Business;
+import com.waimai.model.bean.Favorite;
+import com.waimai.model.bean.ProductCategory;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
 
 public interface BusinessService {

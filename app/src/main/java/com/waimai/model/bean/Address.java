@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.model.bean;
+package com.waimai.model.bean;
 
 import android.os.Parcel;
 import android.os.Parcelable;

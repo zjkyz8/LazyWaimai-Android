@@ -8,7 +8,7 @@ import retrofit2.http.PATCH;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
 import rx.Observable;
-import com.cheikh.lazywaimai.model.bean.Address;
+import com.waimai.model.bean.Address;
 
 public interface AddressService {
 

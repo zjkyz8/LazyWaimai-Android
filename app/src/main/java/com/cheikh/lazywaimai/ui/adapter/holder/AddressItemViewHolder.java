@@ -6,7 +6,7 @@ import android.widget.TextView;
 import butterknife.Bind;
 import com.waimai.R;
 import com.waimai.base.BaseViewHolder;
-import com.cheikh.lazywaimai.model.bean.Address;
+import com.waimai.model.bean.Address;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_ADDRESS_CLICKED;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_DELETE_BTN_CLICKED;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_EDIT_BTN_CLICKED;

@@ -8,7 +8,7 @@ import cn.bingoogolapple.badgeview.BGABadgeFrameLayout;
 import com.waimai.R;
 import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.model.ShoppingCart;
-import com.cheikh.lazywaimai.model.bean.Business;
+import com.waimai.model.bean.Business;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.cheikh.lazywaimai.widget.PicassoImageView;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;

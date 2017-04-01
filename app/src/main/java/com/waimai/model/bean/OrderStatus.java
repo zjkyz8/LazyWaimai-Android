@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.model.bean;
+package com.waimai.model.bean;
 
 /**
  * Created by comet on 16/1/29.

@@ -13,8 +13,8 @@ import java.util.List;
 
 import com.waimai.R;
 import com.cheikh.lazywaimai.model.ShoppingCart;
-import com.cheikh.lazywaimai.model.bean.Product;
-import com.cheikh.lazywaimai.model.bean.ProductCategory;
+import com.waimai.model.bean.Product;
+import com.waimai.model.bean.ProductCategory;
 import com.cheikh.lazywaimai.util.CollectionUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.cheikh.lazywaimai.widget.PicassoImageView;

@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.model.bean;
+package com.waimai.model.bean;
 
 /**
  * author：cheikh on 16/5/20 20:34

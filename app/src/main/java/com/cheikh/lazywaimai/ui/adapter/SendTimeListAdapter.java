@@ -3,7 +3,7 @@ package com.cheikh.lazywaimai.ui.adapter;
 import android.view.View;
 
 import com.waimai.base.BaseListAdapter;
-import com.cheikh.lazywaimai.model.bean.SettleResult;
+import com.waimai.model.bean.SettleResult;
 import com.cheikh.lazywaimai.ui.adapter.holder.SendTimeItemViewHolder;
 
 public class SendTimeListAdapter extends BaseListAdapter<SettleResult.BookingTime, SendTimeItemViewHolder> {

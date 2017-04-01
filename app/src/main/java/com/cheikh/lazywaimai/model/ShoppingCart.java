@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import com.cheikh.lazywaimai.model.bean.Product;
-import com.cheikh.lazywaimai.model.bean.ProductCategory;
-import com.cheikh.lazywaimai.model.bean.ShoppingEntity;
+import com.waimai.model.bean.Product;
+import com.waimai.model.bean.ProductCategory;
+import com.waimai.model.bean.ShoppingEntity;
 import com.cheikh.lazywaimai.model.event.ShoppingCartChangeEvent;
 import com.cheikh.lazywaimai.util.EventUtil;
 

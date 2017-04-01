@@ -15,9 +15,9 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import com.cheikh.lazywaimai.model.bean.Gender;
-import com.cheikh.lazywaimai.model.bean.OrderStatus;
-import com.cheikh.lazywaimai.model.bean.PayMethod;
+import com.waimai.model.bean.Gender;
+import com.waimai.model.bean.OrderStatus;
+import com.waimai.model.bean.PayMethod;
 import com.google.gson.JsonPrimitive;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;

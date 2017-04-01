@@ -7,9 +7,9 @@ import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 import rx.Observable;
-import com.cheikh.lazywaimai.model.bean.Order;
+import com.waimai.model.bean.Order;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
-import com.cheikh.lazywaimai.model.bean.SettleResult;
+import com.waimai.model.bean.SettleResult;
 
 public interface OrderService {
 

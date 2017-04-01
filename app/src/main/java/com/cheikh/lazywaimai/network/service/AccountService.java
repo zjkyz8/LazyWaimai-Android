@@ -8,7 +8,7 @@ import retrofit2.http.PUT;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 import rx.Observable;
-import com.cheikh.lazywaimai.model.bean.Favorite;
+import com.waimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
 import com.cheikh.lazywaimai.model.bean.User;
 

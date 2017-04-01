@@ -1,5 +1,6 @@
-package com.cheikh.lazywaimai.model.bean;
+package com.waimai.model.bean;
 
+import com.waimai.model.bean.ProductCategory;
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.List;

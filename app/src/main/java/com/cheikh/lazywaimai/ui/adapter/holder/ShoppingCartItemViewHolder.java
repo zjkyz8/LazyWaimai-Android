@@ -7,8 +7,8 @@ import butterknife.Bind;
 import com.waimai.R;
 import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.model.ShoppingCart;
-import com.cheikh.lazywaimai.model.bean.Product;
-import com.cheikh.lazywaimai.model.bean.ShoppingEntity;
+import com.waimai.model.bean.Product;
+import com.waimai.model.bean.ShoppingEntity;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.cheikh.lazywaimai.widget.ShoppingCountView;
 

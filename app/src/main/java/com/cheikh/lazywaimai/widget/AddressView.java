@@ -10,7 +10,7 @@ import android.widget.TextView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import com.waimai.R;
-import com.cheikh.lazywaimai.model.bean.Address;
+import com.waimai.model.bean.Address;
 
 /**
  * author：cheikh on 16/5/13 13:41

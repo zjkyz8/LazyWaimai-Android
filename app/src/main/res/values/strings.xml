@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">懒人外卖</string>
+    <string name="app_name">外卖</string>
 
     <!-- Activity或者Fragment的标题 -->
     <string name="title_shop">我要点餐</string>

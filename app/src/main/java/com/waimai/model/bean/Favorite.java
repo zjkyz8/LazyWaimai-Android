@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.model.bean;
+package com.waimai.model.bean;
 
 import com.google.gson.annotations.SerializedName;
 
