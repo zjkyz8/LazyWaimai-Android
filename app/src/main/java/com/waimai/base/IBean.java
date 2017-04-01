@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import java.io.Serializable;
 

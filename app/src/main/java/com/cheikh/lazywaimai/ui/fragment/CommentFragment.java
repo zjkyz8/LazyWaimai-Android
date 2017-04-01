@@ -2,8 +2,8 @@ package com.cheikh.lazywaimai.ui.fragment;
 
 import android.os.Bundle;
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BaseController;
-import com.cheikh.lazywaimai.base.BaseFragment;
+import com.waimai.base.BaseController;
+import com.waimai.base.BaseFragment;
 import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.BusinessController;
 import com.cheikh.lazywaimai.model.bean.Business;

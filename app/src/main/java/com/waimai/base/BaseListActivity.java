@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import android.os.Bundle;
 import android.support.annotation.DrawableRes;
@@ -7,20 +7,17 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.ui.adapter.wrapper.LoadMoreWrapperAdapter;
+import com.waimai.ui.adapter.wrapper.LoadMoreWrapperAdapter;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.util.ToastUtil;
-import com.cheikh.lazywaimai.util.ViewEventListener;
+import com.waimai.util.ViewEventListener;
 import com.cheikh.lazywaimai.widget.MultiStateView;
 import com.cheikh.lazywaimai.widget.refresh.OnRefreshListener;
 import com.cheikh.lazywaimai.widget.refresh.RefreshLayout;
 import java.util.List;
 import butterknife.Bind;
 
-/**
- * author: cheikh.wang on 17/1/11
- * email: wanghonghi@126.com
- */
+
 @ContentView(R.layout.fragment_recyclerview)
 public abstract class BaseListActivity<T, UC> extends BaseActivity<UC>
         implements BaseController.ListUi<T, UC> {

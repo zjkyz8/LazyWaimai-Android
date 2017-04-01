@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.util;
+package com.waimai.util;
 
 import android.view.View;
 

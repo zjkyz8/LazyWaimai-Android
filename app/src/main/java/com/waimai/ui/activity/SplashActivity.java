@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BasePermissionActivity;
+import com.waimai.base.BasePermissionActivity;
 
 
 public class SplashActivity extends BasePermissionActivity {

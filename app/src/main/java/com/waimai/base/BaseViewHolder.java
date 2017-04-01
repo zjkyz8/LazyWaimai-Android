@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
@@ -6,7 +6,7 @@ import android.support.annotation.StringRes;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import butterknife.ButterKnife;
-import com.cheikh.lazywaimai.util.ViewEventListener;
+import com.waimai.util.ViewEventListener;
 
 /**
  * author：cheikh.wang on 16/10/21 23:33

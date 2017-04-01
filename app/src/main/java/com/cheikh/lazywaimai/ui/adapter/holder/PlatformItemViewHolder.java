@@ -4,7 +4,7 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BaseViewHolder;
+import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.model.bean.PaymentPlatform;
 import com.cheikh.lazywaimai.widget.PicassoImageView;
 import butterknife.Bind;

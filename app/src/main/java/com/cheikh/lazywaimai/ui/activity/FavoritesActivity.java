@@ -1,7 +1,7 @@
 package com.cheikh.lazywaimai.ui.activity;
 
-import com.cheikh.lazywaimai.base.BaseController;
-import com.cheikh.lazywaimai.base.BaseListActivity;
+import com.waimai.base.BaseController;
+import com.waimai.base.BaseListActivity;
 import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.UserController;
 import com.cheikh.lazywaimai.model.bean.Favorite;

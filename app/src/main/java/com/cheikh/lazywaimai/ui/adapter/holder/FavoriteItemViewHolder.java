@@ -3,7 +3,7 @@ package com.cheikh.lazywaimai.ui.adapter.holder;
 import android.view.View;
 import android.widget.TextView;
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BaseViewHolder;
+import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.model.bean.Business;
 import com.cheikh.lazywaimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.util.StringFetcher;

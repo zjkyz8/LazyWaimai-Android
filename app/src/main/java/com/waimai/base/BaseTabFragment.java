@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,12 +12,8 @@ import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.widget.SlidingTabLayout;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
 @ContentView(R.layout.fragment_viewpager)
-public abstract class BaseTabActivity<UC> extends BaseActivity<UC> {
+public abstract class BaseTabFragment<UC> extends BaseFragment<UC> {
 
     private static final String SAVE_SELECTED_TAB = "selected_tab";
 
@@ -33,7 +29,7 @@ public abstract class BaseTabActivity<UC> extends BaseActivity<UC> {
 
     @Override
     protected void initializeViews(Bundle savedInstanceState) {
-        mAdapter = new TabPagerAdapter(getSupportFragmentManager());
+        mAdapter = new TabPagerAdapter(getChildFragmentManager());
 
         mViewPager.setAdapter(mAdapter);
         mViewPager.setPageMargin(getResources().getDimensionPixelSize(R.dimen.spacing_minor));

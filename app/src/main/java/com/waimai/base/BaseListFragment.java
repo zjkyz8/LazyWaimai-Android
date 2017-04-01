@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import android.os.Bundle;
 import android.support.annotation.DrawableRes;
@@ -10,8 +10,8 @@ import butterknife.Bind;
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.util.ViewEventListener;
-import com.cheikh.lazywaimai.ui.adapter.wrapper.LoadMoreWrapperAdapter;
+import com.waimai.util.ViewEventListener;
+import com.waimai.ui.adapter.wrapper.LoadMoreWrapperAdapter;
 import com.cheikh.lazywaimai.util.ToastUtil;
 import com.cheikh.lazywaimai.widget.MultiStateView;
 import com.cheikh.lazywaimai.widget.refresh.OnRefreshListener;

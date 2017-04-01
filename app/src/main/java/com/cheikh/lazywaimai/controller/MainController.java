@@ -8,7 +8,7 @@ import com.cheikh.lazywaimai.network.RestApiClient;
 import com.cheikh.lazywaimai.repository.SettingManager;
 import com.google.common.base.Preconditions;
 import javax.inject.Inject;
-import com.cheikh.lazywaimai.base.BaseController;
+import com.waimai.base.BaseController;
 import com.cheikh.lazywaimai.ui.Display;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;

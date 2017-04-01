@@ -10,9 +10,9 @@ import android.widget.Button;
 import butterknife.Bind;
 import butterknife.OnClick;
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BaseActivity;
-import com.cheikh.lazywaimai.base.BaseController;
-import com.cheikh.lazywaimai.base.BaseViewHolder;
+import com.waimai.base.BaseActivity;
+import com.waimai.base.BaseController;
+import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.OrderController;
 import com.cheikh.lazywaimai.model.bean.Order;
@@ -22,7 +22,7 @@ import com.cheikh.lazywaimai.ui.adapter.PlatformListAdapter;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.ToastUtil;
-import com.cheikh.lazywaimai.util.ViewEventListener;
+import com.waimai.util.ViewEventListener;
 import java.util.List;
 
 /**

@@ -4,7 +4,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import butterknife.Bind;
-import com.cheikh.lazywaimai.base.BaseViewHolder;
+import com.waimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.model.bean.SettleResult;
 
 /**

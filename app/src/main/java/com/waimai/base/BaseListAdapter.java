@@ -1,9 +1,12 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+
+import com.waimai.base.BaseViewHolder;
+
 import java.util.ArrayList;
 import java.util.List;
 

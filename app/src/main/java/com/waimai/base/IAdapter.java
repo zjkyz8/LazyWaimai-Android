@@ -1,6 +1,6 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
-import com.cheikh.lazywaimai.util.ViewEventListener;
+import com.waimai.util.ViewEventListener;
 import java.util.List;
 
 public interface IAdapter<T> {

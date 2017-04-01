@@ -11,7 +11,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action0;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
-import com.cheikh.lazywaimai.base.BaseController;
+import com.waimai.base.BaseController;
 import com.cheikh.lazywaimai.context.AppCookie;
 import com.cheikh.lazywaimai.model.ShoppingCart;
 import com.cheikh.lazywaimai.model.bean.Business;

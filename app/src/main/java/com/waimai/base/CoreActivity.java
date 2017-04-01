@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,10 +10,6 @@ import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.ActivityStack;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
 public abstract class CoreActivity<UC> extends AppCompatActivity
         implements BaseController.Ui<UC> {
 

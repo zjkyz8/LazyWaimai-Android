@@ -2,8 +2,8 @@ package com.cheikh.lazywaimai.ui.activity;
 
 import android.content.Intent;
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BaseActivity;
-import com.cheikh.lazywaimai.base.BaseController;
+import com.waimai.base.BaseActivity;
+import com.waimai.base.BaseController;
 import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.UserController;
 import com.cheikh.lazywaimai.util.ContentView;

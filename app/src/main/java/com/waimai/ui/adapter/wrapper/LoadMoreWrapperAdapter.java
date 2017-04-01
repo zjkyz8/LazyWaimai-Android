@@ -1,11 +1,13 @@
-package com.cheikh.lazywaimai.ui.adapter.wrapper;
+package com.waimai.ui.adapter.wrapper;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BaseAdapter;
-import com.cheikh.lazywaimai.base.BaseWrapperAdapter;
+import com.waimai.base.BaseAdapter;
+import com.waimai.base.BaseWrapperAdapter;
+
+import static com.waimai.base.BaseWrapperAdapter.ITEM_TYPE_LOAD_MORE;
 
 /**
  * author: cheikh.wang on 16/12/27

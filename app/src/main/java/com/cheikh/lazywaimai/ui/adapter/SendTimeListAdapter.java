@@ -2,7 +2,7 @@ package com.cheikh.lazywaimai.ui.adapter;
 
 import android.view.View;
 
-import com.cheikh.lazywaimai.base.BaseListAdapter;
+import com.waimai.base.BaseListAdapter;
 import com.cheikh.lazywaimai.model.bean.SettleResult;
 import com.cheikh.lazywaimai.ui.adapter.holder.SendTimeItemViewHolder;
 

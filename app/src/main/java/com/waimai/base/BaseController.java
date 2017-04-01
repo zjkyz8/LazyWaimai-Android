@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import android.util.Log;
 import com.google.common.base.Preconditions;

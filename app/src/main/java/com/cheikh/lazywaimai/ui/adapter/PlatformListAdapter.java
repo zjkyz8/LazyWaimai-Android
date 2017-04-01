@@ -3,7 +3,7 @@ package com.cheikh.lazywaimai.ui.adapter;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BaseAdapter;
+import com.waimai.base.BaseAdapter;
 import com.cheikh.lazywaimai.model.bean.PaymentPlatform;
 import com.cheikh.lazywaimai.ui.activity.PaymentActivity;
 import com.cheikh.lazywaimai.ui.adapter.holder.PlatformItemViewHolder;

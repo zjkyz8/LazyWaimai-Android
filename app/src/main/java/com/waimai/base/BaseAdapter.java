@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.base;
+package com.waimai.base;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,7 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
-import com.cheikh.lazywaimai.util.ViewEventListener;
+
+import com.waimai.base.IAdapter;
+import com.waimai.util.ViewEventListener;
 
 /**
  * author: cheikh.wang on 16/11/23
