@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import android.Manifest;
 import android.content.Intent;

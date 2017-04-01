@@ -21,7 +21,7 @@ import com.cheikh.lazywaimai.model.bean.Business;
 import com.cheikh.lazywaimai.ui.activity.AddressesActivity;
 import com.cheikh.lazywaimai.ui.activity.BusinessActivity;
 import com.cheikh.lazywaimai.ui.activity.LoginActivity;
-import com.cheikh.lazywaimai.ui.activity.MainActivity;
+import com.waimai.ui.activity.MainActivity;
 import com.cheikh.lazywaimai.ui.activity.OrderDetailActivity;
 import com.cheikh.lazywaimai.ui.activity.PaymentActivity;
 import com.cheikh.lazywaimai.ui.activity.RegisterActivity;
