@@ -1,28 +1,31 @@
 package com.waimai.controller;
 
-import com.waimai.R;
-import com.waimai.model.bean.Favorite;
+import com.cheikh.lazywaimai.model.bean.ResponseError;
+import com.cheikh.lazywaimai.model.bean.ResultsPage;
+import com.cheikh.lazywaimai.model.event.ShoppingCartChangeEvent;
+import com.cheikh.lazywaimai.ui.Display;
+import com.cheikh.lazywaimai.util.EventUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.google.common.base.Preconditions;
 import com.squareup.otto.Subscribe;
-import java.util.List;
-import javax.inject.Inject;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action0;
-import rx.functions.Func1;
-import rx.schedulers.Schedulers;
+import com.waimai.R;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppCookie;
 import com.waimai.model.ShoppingCart;
 import com.waimai.model.bean.Business;
+import com.waimai.model.bean.Favorite;
 import com.waimai.model.bean.ProductCategory;
-import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.model.bean.ResultsPage;
-import com.cheikh.lazywaimai.model.event.ShoppingCartChangeEvent;
 import com.waimai.network.RequestCallback;
 import com.waimai.network.RestApiClient;
-import com.cheikh.lazywaimai.ui.Display;
-import com.cheikh.lazywaimai.util.EventUtil;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import rx.android.schedulers.AndroidSchedulers;
+import rx.functions.Action0;
+import rx.functions.Func1;
+import rx.schedulers.Schedulers;
 
 import static com.waimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
 

@@ -33,6 +33,7 @@ public class RestApiClient {
     private Context mContext;
     private final File mCacheLocation;
     private Retrofit mRetrofit;
+    private Retrofit mRetrofitNew;
     private String mToken;
 
     public RestApiClient(Context context, File cacheLocation) {
@@ -43,6 +44,7 @@ public class RestApiClient {
     public RestApiClient setToken(String token) {
         mToken = token;
         mRetrofit = null;
+        mRetrofitNew = null;
         return this;
     }
 
@@ -98,13 +100,36 @@ public class RestApiClient {
         return mRetrofit;
     }
 
+    private Retrofit getRetrofitNew() {
+        if (mRetrofitNew == null) {
+            Retrofit.Builder builder = new Retrofit.Builder();
+            builder.client(newRetrofitClient());
+            builder.baseUrl(AppConfig.SERVER_URL_NEW);
+            builder.addConverterFactory(GsonConverterFactory.create(GsonHelper.builderGson()));
+            builder.addCallAdapterFactory(RxJavaCallAdapterFactory.create());
+
+            mRetrofitNew = builder.build();
+        }
+
+        return mRetrofitNew;
+    }
+
     private <T> T get(Class<T> clazz) {
         return getRetrofit().create(clazz);
+    }
+    private <T> T getNew(Class<T> clazz) {
+        return getRetrofitNew().create(clazz);
     }
 
     @SuppressWarnings("unchecked")
     private <T> T getByProxy(Class<T> clazz) {
         T t = get(clazz);
+        return (T) Proxy.newProxyInstance(clazz.getClassLoader(), new Class<?>[] { clazz },
+                new ResponseErrorProxy(t, this));
+    }
+
+    private <T> T getByProxyNew(Class<T> clazz) {
+        T t = getNew(clazz);
         return (T) Proxy.newProxyInstance(clazz.getClassLoader(), new Class<?>[] { clazz },
                 new ResponseErrorProxy(t, this));
     }
@@ -122,7 +147,7 @@ public class RestApiClient {
     }
 
     public BusinessService businessService() {
-        return getByProxy(BusinessService.class);
+        return getByProxyNew(BusinessService.class);
     }
 
     public OrderService orderService() {
