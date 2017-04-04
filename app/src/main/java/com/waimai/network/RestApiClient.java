@@ -146,8 +146,11 @@ public class RestApiClient {
         return getByProxy(AddressService.class);
     }
 
-    public BusinessService businessService() {
+    public BusinessService businessServiceNew() {
         return getByProxyNew(BusinessService.class);
+    }
+    public BusinessService businessService() {
+        return getByProxy(BusinessService.class);
     }
 
     public OrderService orderService() {

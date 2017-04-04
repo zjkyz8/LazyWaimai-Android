@@ -19,7 +19,7 @@ import com.waimai.R;
 import com.waimai.model.bean.Address;
 import com.waimai.model.bean.Business;
 import com.cheikh.lazywaimai.ui.activity.AddressesActivity;
-import com.cheikh.lazywaimai.ui.activity.BusinessActivity;
+import com.waimai.ui.activity.BusinessActivity;
 import com.waimai.ui.activity.LoginActivity;
 import com.waimai.ui.activity.MainActivity;
 import com.cheikh.lazywaimai.ui.activity.OrderDetailActivity;

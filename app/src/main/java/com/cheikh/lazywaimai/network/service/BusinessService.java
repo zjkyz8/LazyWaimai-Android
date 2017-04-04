@@ -13,10 +13,10 @@ import com.cheikh.lazywaimai.model.bean.ResultsPage;
 
 public interface BusinessService {
 
-    @GET("businesses")
+    @GET("restaurant")
     Observable<ResultsPage<Business>> businesses(@Query("page") int page, @Query("size") int size);
 
-    @GET("businesses/{bid}/products")
+    @GET("restaurant/{bid}/products")
     Observable<List<ProductCategory>> products(@Path("bid") String businessId);
 
     @POST("businesses/{bid}/favorite")
