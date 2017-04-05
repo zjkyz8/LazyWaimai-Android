@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.util;
+package com.waimai.util;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

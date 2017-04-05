@@ -1,6 +1,6 @@
 package com.waimai.controller;
 
-import com.cheikh.lazywaimai.model.bean.Feedback;
+import com.waimai.model.bean.Feedback;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.Setting;
 import com.waimai.network.RequestCallback;
@@ -9,7 +9,7 @@ import com.cheikh.lazywaimai.repository.SettingManager;
 import com.google.common.base.Preconditions;
 import javax.inject.Inject;
 import com.waimai.base.BaseController;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.ui.Display;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
@@ -112,7 +112,7 @@ public class MainController extends BaseController<MainController.MainUi, MainCo
      * @param callingId
      */
     private void doFeedback(final int callingId, Feedback feedback) {
-        mRestApiClient.commonService()
+        mRestApiClient.commonServiceNew()
                 .feedback(feedback)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

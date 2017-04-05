@@ -9,7 +9,7 @@ import java.util.List;
 import butterknife.Bind;
 import com.waimai.R;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.util.ContentView;
+import com.waimai.util.ContentView;
 import com.waimai.util.ViewEventListener;
 import com.waimai.ui.adapter.wrapper.LoadMoreWrapperAdapter;
 import com.cheikh.lazywaimai.util.ToastUtil;

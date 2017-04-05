@@ -25,7 +25,7 @@ import com.waimai.model.bean.SettleResult;
 import com.cheikh.lazywaimai.model.event.AccountChangedEvent;
 import com.waimai.network.RequestCallback;
 import com.waimai.network.RestApiClient;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.ui.Display;
 import com.cheikh.lazywaimai.util.EventUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import static com.waimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;

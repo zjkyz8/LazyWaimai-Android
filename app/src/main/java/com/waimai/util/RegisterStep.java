@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.util;
+package com.waimai.util;
 
 public enum  RegisterStep {
     STEP_FIRST,

@@ -10,10 +10,10 @@ import rx.schedulers.Schedulers;
 import com.waimai.base.BaseController;
 import com.waimai.model.bean.Address;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.model.bean.User;
+import com.waimai.model.bean.User;
 import com.waimai.network.RequestCallback;
 import com.waimai.network.RestApiClient;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.ui.Display;
 
 public class AddressController extends BaseController<AddressController.AddressUi, AddressController.AddressUiCallbacks> {
 

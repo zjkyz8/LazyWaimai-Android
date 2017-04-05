@@ -1,13 +1,9 @@
 package com.waimai.context;
 
-import com.cheikh.lazywaimai.model.bean.User;
+import com.waimai.model.bean.User;
 import com.waimai.util.Constants;
 import com.cheikh.lazywaimai.util.PreferenceUtil;
 
-/**
- * author：cheikh.wang on 16/8/3 19:50
- * email：wanghonghi@126.com
- */
 public class AppCookie {
 
     public static boolean isLoggin() {

@@ -7,8 +7,8 @@ import com.waimai.base.BaseFragment;
 import com.waimai.context.AppContext;
 import com.waimai.controller.BusinessController;
 import com.waimai.model.bean.Business;
-import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.util.ContentView;
+import com.waimai.ui.Display;
 
 @ContentView(R.layout.fragment_business_detail)
 public class BusinessDetailFragment extends BaseFragment<BusinessController.BusinessUiCallbacks>

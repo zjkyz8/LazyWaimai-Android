@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.fragment;
+package com.waimai.ui.fragment;
 
 import android.text.TextUtils;
 import android.view.View;
@@ -15,17 +15,13 @@ import com.waimai.base.BaseFragment;
 import com.waimai.context.AppContext;
 import com.waimai.controller.UserController;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.ui.Display;
-import com.cheikh.lazywaimai.util.RegisterStep;
+import com.waimai.util.ContentView;
+import com.waimai.ui.Display;
+import com.waimai.util.RegisterStep;
 import com.cheikh.lazywaimai.util.StringUtil;
 import com.cheikh.lazywaimai.util.SystemUtil;
 import com.cheikh.lazywaimai.util.ToastUtil;
 
-/**
- * author：cheikh on 16/5/14 20:45
- * email：wanghonghi@126.com
- */
 @ContentView(R.layout.fragment_register_first_step)
 public class RegisterFirstStepFragment extends BaseFragment<UserController.UserUiCallbacks>
         implements UserController.RegisterFirstStepUi {

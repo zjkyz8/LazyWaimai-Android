@@ -1,11 +1,7 @@
-package com.cheikh.lazywaimai.model.bean;
+package com.waimai.model.bean;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * author: cheikh.wang on 17/1/12
- * email: wanghonghi@126.com
- */
 public class Feedback {
 
     @SerializedName("id")

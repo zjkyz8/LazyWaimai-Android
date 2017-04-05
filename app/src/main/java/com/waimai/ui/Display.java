@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui;
+package com.waimai.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,7 +9,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import com.waimai.model.bean.Order;
 import com.cheikh.lazywaimai.ui.activity.FavoritesActivity;
-import com.cheikh.lazywaimai.ui.activity.FeedbackActivity;
+import com.waimai.ui.activity.FeedbackActivity;
 import com.cheikh.lazywaimai.ui.activity.RemarkActivity;
 import com.cheikh.lazywaimai.ui.fragment.SetNicknameFragment;
 import com.cheikh.lazywaimai.ui.fragment.SetUsernameFragment;
@@ -24,16 +24,16 @@ import com.waimai.ui.activity.LoginActivity;
 import com.waimai.ui.activity.MainActivity;
 import com.cheikh.lazywaimai.ui.activity.OrderDetailActivity;
 import com.cheikh.lazywaimai.ui.activity.PaymentActivity;
-import com.cheikh.lazywaimai.ui.activity.RegisterActivity;
-import com.cheikh.lazywaimai.ui.activity.SettingActivity;
+import com.waimai.ui.activity.RegisterActivity;
+import com.waimai.ui.activity.SettingActivity;
 import com.cheikh.lazywaimai.ui.activity.SettleActivity;
 import com.cheikh.lazywaimai.ui.activity.UpdateAddressActivity;
 import com.cheikh.lazywaimai.ui.activity.UserProfileActivity;
-import com.cheikh.lazywaimai.ui.fragment.RegisterFirstStepFragment;
-import com.cheikh.lazywaimai.ui.fragment.RegisterSecondStepFragment;
+import com.waimai.ui.fragment.RegisterFirstStepFragment;
+import com.waimai.ui.fragment.RegisterSecondStepFragment;
 import com.cheikh.lazywaimai.ui.fragment.RegisterThirdStepFragment;
 import com.cheikh.lazywaimai.util.MainTab;
-import com.cheikh.lazywaimai.util.RegisterStep;
+import com.waimai.util.RegisterStep;
 
 public class Display {
 

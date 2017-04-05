@@ -8,7 +8,7 @@ import android.view.View;
 import com.waimai.R;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.waimai.ui.adapter.wrapper.LoadMoreWrapperAdapter;
-import com.cheikh.lazywaimai.util.ContentView;
+import com.waimai.util.ContentView;
 import com.cheikh.lazywaimai.util.ToastUtil;
 import com.waimai.util.ViewEventListener;
 import com.cheikh.lazywaimai.widget.MultiStateView;

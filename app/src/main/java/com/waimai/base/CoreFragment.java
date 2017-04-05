@@ -5,7 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import com.waimai.context.AppContext;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.ui.Display;
 
 /**
  * author: cheikh.wang on 17/1/22

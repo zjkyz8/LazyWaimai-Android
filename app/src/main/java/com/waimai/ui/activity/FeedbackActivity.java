@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import android.text.TextUtils;
 import android.view.Menu;
@@ -10,19 +10,15 @@ import com.waimai.base.BaseActivity;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppContext;
 import com.waimai.controller.MainController;
-import com.cheikh.lazywaimai.model.bean.Feedback;
+import com.waimai.model.bean.Feedback;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.ui.Display;
-import com.cheikh.lazywaimai.util.ContentView;
+import com.waimai.ui.Display;
+import com.waimai.util.ContentView;
 import com.cheikh.lazywaimai.util.SystemUtil;
 import com.cheikh.lazywaimai.util.ToastUtil;
 import butterknife.Bind;
 import butterknife.OnTextChanged;
 
-/**
- * author: cheikh.wang on 17/1/10
- * email: wanghonghi@126.com
- */
 @ContentView(R.layout.activity_feedback)
 public class FeedbackActivity extends BaseActivity<MainController.MainUiCallbacks>
         implements MainController.MainFeedbackUi {

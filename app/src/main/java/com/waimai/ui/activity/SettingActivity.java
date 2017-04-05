@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -13,16 +13,12 @@ import com.waimai.base.BaseController;
 import com.waimai.context.AppContext;
 import com.waimai.context.AppCookie;
 import com.waimai.controller.UserController;
-import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.util.ContentView;
+import com.waimai.ui.Display;
 import com.cheikh.lazywaimai.util.SystemUtil;
 import com.cheikh.lazywaimai.util.ToastUtil;
 import com.cheikh.lazywaimai.widget.section.SectionTextItemView;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
 @ContentView(R.layout.activity_setting)
 public class SettingActivity extends BaseActivity<UserController.UserUiCallbacks>
     implements UserController.SettingUi {

@@ -113,12 +113,11 @@
 
     <Button
         android:id="@+id/btn_send_code"
+        style="@style/Widget.LazyOrder.Button"
         android:layout_width="match_parent"
         android:layout_height="@dimen/cell_normal"
         android:layout_marginLeft="@dimen/spacing_major"
         android:layout_marginRight="@dimen/spacing_major"
-        android:text="@string/btn_obtain_code"
-        style="@style/Widget.LazyOrder.Button"
-        />
+        android:text="@string/btn_obtain_code" />
 
 </LinearLayout>

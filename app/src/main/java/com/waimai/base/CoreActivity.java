@@ -7,7 +7,7 @@ import android.view.MenuItem;
 import com.waimai.context.AppContext;
 import com.waimai.controller.MainController;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.ui.Display;
 import com.cheikh.lazywaimai.util.ActivityStack;
 
 public abstract class CoreActivity<UC> extends AppCompatActivity

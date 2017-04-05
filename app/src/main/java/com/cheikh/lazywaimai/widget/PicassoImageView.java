@@ -21,7 +21,7 @@ import com.waimai.R;
 import com.waimai.context.AppConfig;
 import com.waimai.model.bean.Business;
 import com.waimai.model.bean.Product;
-import com.cheikh.lazywaimai.model.bean.User;
+import com.waimai.model.bean.User;
 import com.cheikh.lazywaimai.util.AnimationUtils;
 
 /**

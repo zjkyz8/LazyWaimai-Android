@@ -12,13 +12,9 @@ import android.view.ViewGroup;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import com.waimai.R;
-import com.cheikh.lazywaimai.util.ContentView;
+import com.waimai.util.ContentView;
 import com.cheikh.lazywaimai.widget.LoadingDialog;
 
-/**
- * author: cheikh.wang on 16/11/23
- * email: wanghonghi@126.com
- */
 public abstract class BaseFragment<UC> extends CoreFragment<UC> {
 
     @Nullable

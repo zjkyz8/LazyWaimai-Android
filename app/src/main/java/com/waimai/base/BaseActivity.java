@@ -10,8 +10,8 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import com.waimai.R;
 import com.waimai.base.CoreActivity;
-import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.util.ContentView;
+import com.waimai.ui.Display;
 import com.cheikh.lazywaimai.widget.LoadingDialog;
 
 /**

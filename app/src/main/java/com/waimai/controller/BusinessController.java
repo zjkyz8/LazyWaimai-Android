@@ -3,7 +3,7 @@ package com.waimai.controller;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
 import com.cheikh.lazywaimai.model.event.ShoppingCartChangeEvent;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.ui.Display;
 import com.cheikh.lazywaimai.util.EventUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import com.google.common.base.Preconditions;

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import butterknife.Bind;
 import com.waimai.R;
-import com.cheikh.lazywaimai.util.ContentView;
+import com.waimai.util.ContentView;
 import com.cheikh.lazywaimai.widget.SlidingTabLayout;
 
 /**

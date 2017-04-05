@@ -1,13 +1,14 @@
-package com.cheikh.lazywaimai.widget;
+package com.waimai.widget;
 
 import android.content.Context;
+import android.support.v7.widget.AppCompatButton;
 import android.util.AttributeSet;
 import android.widget.Button;
 
 import com.waimai.R;
 import com.cheikh.lazywaimai.util.CountDownTimer;
 
-public class CountDownTimerView extends Button {
+public class CountDownTimerView extends AppCompatButton  {
 
     private CountDownTimer countDownTimer;
     private OnCountDownListener onCountDownListener;

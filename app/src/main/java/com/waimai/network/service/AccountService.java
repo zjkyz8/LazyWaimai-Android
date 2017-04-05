@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.network.service;
+package com.waimai.network.service;
 
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
@@ -10,7 +10,7 @@ import retrofit2.http.Query;
 import rx.Observable;
 import com.waimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.model.bean.ResultsPage;
-import com.cheikh.lazywaimai.model.bean.User;
+import com.waimai.model.bean.User;
 
 
 public interface AccountService {

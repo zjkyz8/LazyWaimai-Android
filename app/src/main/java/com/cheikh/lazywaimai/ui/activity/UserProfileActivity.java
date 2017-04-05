@@ -6,8 +6,8 @@ import com.waimai.base.BaseActivity;
 import com.waimai.base.BaseController;
 import com.waimai.context.AppContext;
 import com.waimai.controller.UserController;
-import com.cheikh.lazywaimai.ui.Display;
-import com.cheikh.lazywaimai.util.ContentView;
+import com.waimai.ui.Display;
+import com.waimai.util.ContentView;
 
 /**
  * author: cheikh.wang on 17/1/5

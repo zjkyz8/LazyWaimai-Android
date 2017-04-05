@@ -17,10 +17,10 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import com.waimai.context.AppConfig;
-import com.cheikh.lazywaimai.network.service.AccountService;
+import com.waimai.network.service.AccountService;
 import com.cheikh.lazywaimai.network.service.AddressService;
 import com.cheikh.lazywaimai.network.service.BusinessService;
-import com.cheikh.lazywaimai.network.service.CommonService;
+import com.waimai.network.service.CommonService;
 import com.cheikh.lazywaimai.network.service.OrderService;
 import com.cheikh.lazywaimai.network.service.TokenService;
 import com.waimai.util.Constants.Header;
@@ -142,6 +142,10 @@ public class RestApiClient {
         return getByProxy(AccountService.class);
     }
 
+    public AccountService accountServiceNew() {
+        return getByProxyNew(AccountService.class);
+    }
+
     public AddressService addressService() {
         return getByProxy(AddressService.class);
     }
@@ -159,5 +163,9 @@ public class RestApiClient {
 
     public CommonService commonService() {
         return getByProxy(CommonService.class);
+    }
+
+    public CommonService commonServiceNew() {
+        return getByProxyNew(CommonService.class);
     }
 }

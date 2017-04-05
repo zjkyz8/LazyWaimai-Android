@@ -8,7 +8,7 @@ import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
 import com.waimai.context.AppConfig;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.ui.Display;
 
 /**
  * author: cheikh.wang on 17/1/5

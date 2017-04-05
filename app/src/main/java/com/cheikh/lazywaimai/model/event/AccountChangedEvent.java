@@ -1,6 +1,6 @@
 package com.cheikh.lazywaimai.model.event;
 
-import com.cheikh.lazywaimai.model.bean.User;
+import com.waimai.model.bean.User;
 
 /**
  * author：cheikh.wang on 16/7/18 14:21

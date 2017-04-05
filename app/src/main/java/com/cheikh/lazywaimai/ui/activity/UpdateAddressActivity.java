@@ -16,8 +16,8 @@ import com.waimai.controller.AddressController;
 import com.waimai.model.bean.Address;
 import com.waimai.model.bean.Gender;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.ui.Display;
+import com.waimai.util.ContentView;
+import com.waimai.ui.Display;
 import com.cheikh.lazywaimai.util.ToastUtil;
 
 /**

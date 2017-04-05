@@ -1,6 +1,6 @@
-package com.cheikh.lazywaimai.network.service;
+package com.waimai.network.service;
 
-import com.cheikh.lazywaimai.model.bean.Feedback;
+import com.waimai.model.bean.Feedback;
 import com.cheikh.lazywaimai.model.bean.Setting;
 import okhttp3.MultipartBody;
 import retrofit2.http.Body;
