@@ -139,7 +139,7 @@ public class UserController extends BaseController<UserController.UserUi, UserCo
      * @param code
      */
     private void doCheckCode(final int callingId, String mobile, String code) {
-        mRestApiClient.accountService()
+        mRestApiClient.accountServiceNew()
                 .verifyCode(mobile, code)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
