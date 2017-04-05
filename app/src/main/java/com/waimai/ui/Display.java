@@ -31,7 +31,7 @@ import com.cheikh.lazywaimai.ui.activity.UpdateAddressActivity;
 import com.cheikh.lazywaimai.ui.activity.UserProfileActivity;
 import com.waimai.ui.fragment.RegisterFirstStepFragment;
 import com.waimai.ui.fragment.RegisterSecondStepFragment;
-import com.cheikh.lazywaimai.ui.fragment.RegisterThirdStepFragment;
+import com.waimai.ui.fragment.RegisterThirdStepFragment;
 import com.cheikh.lazywaimai.util.MainTab;
 import com.waimai.util.RegisterStep;
 

@@ -14,7 +14,7 @@ public class AppConfig {
     /**
      * 服务器地址
      */
-    public static final String SERVER_URL_NEW = "http://192.168.43.98:3000/";
+    public static final String SERVER_URL_NEW = "http://192.168.10.161:3000/";
     public static final String SERVER_URL = "http://api.beta.lazywaimai.com/v1/";
 
     /**

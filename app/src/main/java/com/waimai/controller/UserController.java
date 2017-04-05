@@ -170,7 +170,7 @@ public class UserController extends BaseController<UserController.UserUi, UserCo
      * @param password
      */
     private void doCreateUser(final int callingId, String mobile, String password) {
-        mRestApiClient.accountService()
+        mRestApiClient.accountServiceNew()
                 .register(mobile, password)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -207,7 +207,7 @@ public class UserController extends BaseController<UserController.UserUi, UserCo
         params.put(PARAM_USER_NAME, username);
         params.put(PARAM_PASSWORD, password);
 
-        mRestApiClient.tokenService()
+        mRestApiClient.tokenServiceNew()
                 .accessToken(params)
                 .flatMap(new Func1<Token, Observable<User>>() {
                     @Override

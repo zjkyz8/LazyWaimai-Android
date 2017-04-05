@@ -22,7 +22,7 @@ import com.cheikh.lazywaimai.network.service.AddressService;
 import com.cheikh.lazywaimai.network.service.BusinessService;
 import com.waimai.network.service.CommonService;
 import com.cheikh.lazywaimai.network.service.OrderService;
-import com.cheikh.lazywaimai.network.service.TokenService;
+import com.waimai.network.service.TokenService;
 import com.waimai.util.Constants.Header;
 import com.cheikh.lazywaimai.util.SystemUtil;
 
@@ -135,6 +135,9 @@ public class RestApiClient {
     }
 
     public TokenService tokenService() {
+        return getByProxy(TokenService.class);
+    }
+    public TokenService tokenServiceNew() {
         return getByProxy(TokenService.class);
     }
 

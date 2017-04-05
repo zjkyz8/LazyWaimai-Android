@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.fragment;
+package com.waimai.ui.fragment;
 
 import android.os.Bundle;
 import android.os.Handler;

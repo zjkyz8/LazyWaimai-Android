@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.network.service;
+package com.waimai.network.service;
 
 import java.util.Map;
 import retrofit2.http.POST;
