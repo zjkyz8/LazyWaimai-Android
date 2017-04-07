@@ -2,7 +2,7 @@ package com.cheikh.lazywaimai.repository;
 
 import com.waimai.context.AppConfig;
 import com.waimai.model.bean.User;
-import com.cheikh.lazywaimai.util.PreferenceUtil;
+import com.waimai.util.PreferenceUtil;
 import com.tencent.bugly.crashreport.CrashReport;
 
 public class UserManager {

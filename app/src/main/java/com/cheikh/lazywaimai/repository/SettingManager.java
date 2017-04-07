@@ -2,7 +2,7 @@ package com.cheikh.lazywaimai.repository;
 
 import com.cheikh.lazywaimai.model.bean.PaymentPlatform;
 import com.cheikh.lazywaimai.model.bean.Setting;
-import com.cheikh.lazywaimai.util.PreferenceUtil;
+import com.waimai.util.PreferenceUtil;
 import java.util.List;
 
 /**

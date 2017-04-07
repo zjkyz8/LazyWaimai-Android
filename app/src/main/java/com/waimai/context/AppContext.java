@@ -16,7 +16,7 @@ import com.cheikh.lazywaimai.module.qualifiers.ShareDirectory;
 import com.waimai.network.GsonHelper;
 import com.waimai.controller.MainController;
 import com.cheikh.lazywaimai.util.Injector;
-import com.cheikh.lazywaimai.util.PreferenceUtil;
+import com.waimai.util.PreferenceUtil;
 import com.cheikh.lazywaimai.util.ToastUtil;
 
 public class AppContext extends Application implements Injector {

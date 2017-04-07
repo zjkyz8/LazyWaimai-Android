@@ -2,7 +2,7 @@ package com.waimai.context;
 
 import com.waimai.model.bean.User;
 import com.waimai.util.Constants;
-import com.cheikh.lazywaimai.util.PreferenceUtil;
+import com.waimai.util.PreferenceUtil;
 
 public class AppCookie {
 

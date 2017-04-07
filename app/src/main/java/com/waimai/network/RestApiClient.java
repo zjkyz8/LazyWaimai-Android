@@ -138,7 +138,7 @@ public class RestApiClient {
         return getByProxy(TokenService.class);
     }
     public TokenService tokenServiceNew() {
-        return getByProxy(TokenService.class);
+        return getByProxyNew(TokenService.class);
     }
 
     public AccountService accountService() {

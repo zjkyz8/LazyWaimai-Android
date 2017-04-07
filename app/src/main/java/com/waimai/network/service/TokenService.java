@@ -4,7 +4,7 @@ import java.util.Map;
 import retrofit2.http.POST;
 import retrofit2.http.QueryMap;
 import rx.Observable;
-import com.cheikh.lazywaimai.model.bean.Token;
+import com.waimai.model.bean.Token;
 
 public interface TokenService {
 

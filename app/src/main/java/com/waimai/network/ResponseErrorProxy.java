@@ -20,7 +20,7 @@ import com.waimai.R;
 import com.waimai.context.AppConfig;
 import com.waimai.context.AppCookie;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.model.bean.Token;
+import com.waimai.model.bean.Token;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import static com.waimai.util.Constants.HttpCode.HTTP_NETWORK_ERROR;
 import static com.waimai.util.Constants.HttpCode.HTTP_SERVER_ERROR;

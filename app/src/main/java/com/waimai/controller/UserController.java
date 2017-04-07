@@ -23,7 +23,7 @@ import com.waimai.base.BaseController;
 import com.waimai.context.AppConfig;
 import com.waimai.context.AppCookie;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.model.bean.Token;
+import com.waimai.model.bean.Token;
 import com.waimai.model.bean.User;
 import com.cheikh.lazywaimai.model.event.AccountChangedEvent;
 import com.waimai.network.RequestCallback;
@@ -216,7 +216,7 @@ public class UserController extends BaseController<UserController.UserUi, UserCo
                         AppCookie.saveRefreshToken(token.getRefreshToken());
 
                         return mRestApiClient.setToken(token.getAccessToken())
-                                .accountService()
+                                .accountServiceNew()
                                 .profile(token.getUserId());
                     }
                 })
