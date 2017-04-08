@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.fragment;
+package com.waimai.ui.fragment;
 
 import android.os.Bundle;
 import com.waimai.R;
@@ -10,14 +10,14 @@ import com.waimai.model.bean.Business;
 import com.waimai.util.ContentView;
 import com.waimai.ui.Display;
 
-@ContentView(R.layout.fragment_business_detail)
-public class BusinessDetailFragment extends BaseFragment<BusinessController.BusinessUiCallbacks>
-        implements BusinessController.BusinessProfileUi {
+@ContentView(R.layout.fragment_comment)
+public class CommentFragment extends BaseFragment<BusinessController.BusinessUiCallbacks>
+        implements BusinessController.CommentListUi {
 
     private Business mBusiness;
 
-    public static BusinessDetailFragment create(Business business) {
-        BusinessDetailFragment fragment = new BusinessDetailFragment();
+    public static CommentFragment create(Business business) {
+        CommentFragment fragment = new CommentFragment();
         if (business != null) {
             Bundle bundle = new Bundle();
             bundle.putSerializable(Display.PARAM_OBJ, business);

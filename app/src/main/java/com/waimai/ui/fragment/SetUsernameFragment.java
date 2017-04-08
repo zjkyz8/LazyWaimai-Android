@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.fragment;
+package com.waimai.ui.fragment;
 
 import android.text.TextUtils;
 import android.view.View;
@@ -20,13 +20,9 @@ import butterknife.Bind;
 import butterknife.OnClick;
 import butterknife.OnTextChanged;
 
-/**
- * author: cheikh.wang on 17/1/12
- * email: wanghonghi@126.com
- */
-@ContentView(R.layout.fragment_set_nickname)
-public class SetNicknameFragment extends BaseFragment<UserController.UserUiCallbacks>
-        implements UserController.UserNicknameUi {
+@ContentView(R.layout.fragment_set_username)
+public class SetUsernameFragment extends BaseFragment<UserController.UserUiCallbacks>
+        implements UserController.UserNameUi {
 
     @Bind(R.id.edit_content)
     EditText mContentEdit;
@@ -44,7 +40,7 @@ public class SetNicknameFragment extends BaseFragment<UserController.UserUiCallb
 
     @Override
     protected String getTitle() {
-        return getString(R.string.title_set_nickname);
+        return getString(R.string.title_set_username);
     }
 
     @OnTextChanged(R.id.edit_content)
@@ -54,9 +50,9 @@ public class SetNicknameFragment extends BaseFragment<UserController.UserUiCallb
     }
 
     @Override
-    public void onSetNicknameFinish() {
+    public void onSetUsernameFinish() {
         cancelLoading();
-        ToastUtil.showToast(R.string.toast_success_set_nickname);
+        ToastUtil.showToast(R.string.toast_success_set_username);
         // 关闭当前页面
         Display display = getDisplay();
         if (display != null) {
@@ -83,16 +79,16 @@ public class SetNicknameFragment extends BaseFragment<UserController.UserUiCallb
     }
 
     /**
-     * 执行设置昵称的操作
+     * 执行保存用户名的操作
      */
     private void saveUserName() {
         // 隐藏软键盘
         SystemUtil.hideKeyBoard(getContext());
 
-        // 验证昵称是否为空
-        final String nickname = mContentEdit.getText().toString().trim();
-        if (TextUtils.isEmpty(nickname)) {
-            ToastUtil.showToast(R.string.toast_error_empty_nickname);
+        // 验证用户名是否为空
+        final String username = mContentEdit.getText().toString().trim();
+        if (TextUtils.isEmpty(username)) {
+            ToastUtil.showToast(R.string.toast_error_empty_username);
             return;
         }
 
@@ -100,7 +96,7 @@ public class SetNicknameFragment extends BaseFragment<UserController.UserUiCallb
         mSaveBtn.setEnabled(false);
         // 显示提示对话框
         showLoading(R.string.label_being_something);
-        // 发起设置昵称的网络请求
-        getCallbacks().setNickname(nickname);
+        // 发起设置用户名的网络请求
+        getCallbacks().setUsername(username);
     }
 }

@@ -280,7 +280,7 @@ public class UserController extends BaseController<UserController.UserUi, UserCo
      * @param nickname
      */
     private void doSetNickname(final int callingId, String nickname) {
-        mRestApiClient.accountService()
+        mRestApiClient.accountServiceNew()
                 .setNickname(AppCookie.getUserInfo().getId(), nickname)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

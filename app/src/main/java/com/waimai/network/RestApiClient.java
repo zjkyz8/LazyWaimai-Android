@@ -19,7 +19,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import com.waimai.context.AppConfig;
 import com.waimai.network.service.AccountService;
 import com.waimai.network.service.AddressService;
-import com.cheikh.lazywaimai.network.service.BusinessService;
+import com.waimai.network.service.BusinessService;
 import com.waimai.network.service.CommonService;
 import com.cheikh.lazywaimai.network.service.OrderService;
 import com.waimai.network.service.TokenService;

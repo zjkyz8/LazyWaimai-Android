@@ -16,15 +16,12 @@ import com.waimai.context.AppContext;
 import com.waimai.controller.BusinessController;
 import com.waimai.model.bean.Business;
 import com.waimai.ui.Display;
-import com.cheikh.lazywaimai.ui.fragment.BusinessDetailFragment;
-import com.cheikh.lazywaimai.ui.fragment.CommentFragment;
-import com.cheikh.lazywaimai.ui.fragment.ProductFragment;
+import com.waimai.ui.fragment.BusinessDetailFragment;
+import com.waimai.ui.fragment.CommentFragment;
+import com.waimai.ui.fragment.ProductFragment;
 import com.cheikh.lazywaimai.util.StringFetcher;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
+
 public class BusinessActivity extends BaseTabActivity<BusinessController.BusinessUiCallbacks>
         implements BusinessController.BusinessTabUi {
 

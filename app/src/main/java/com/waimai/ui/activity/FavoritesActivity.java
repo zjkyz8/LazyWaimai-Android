@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import com.waimai.base.BaseController;
 import com.waimai.base.BaseListActivity;
@@ -8,10 +8,7 @@ import com.waimai.model.bean.Favorite;
 import com.cheikh.lazywaimai.ui.adapter.FavoriteListAdapter;
 import static com.waimai.util.Constants.ClickType.CLICK_TYPE_BUSINESS_CLICKED;
 
-/**
- * author: cheikh.wang on 17/01/11
- * email: wanghonghi@126.com
- */
+
 public class FavoritesActivity extends BaseListActivity<Favorite, UserController.UserUiCallbacks>
         implements UserController.UserFavoriteListUi {
 

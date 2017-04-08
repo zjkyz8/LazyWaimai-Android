@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.fragment;
+package com.waimai.ui.fragment;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
@@ -119,7 +119,8 @@ public class UserProfileFragment extends BaseFragment<UserController.UserUiCallb
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.item_avatar:
-                selectUpdateAvatarMethod();
+//                selectUpdateAvatarMethod();
+                ToastUtil.showToast("还未开发");
                 break;
             case R.id.item_nickname:
                 wantToSetNickname();
