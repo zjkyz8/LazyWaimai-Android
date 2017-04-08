@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;

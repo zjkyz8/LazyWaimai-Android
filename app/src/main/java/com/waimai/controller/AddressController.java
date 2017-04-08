@@ -70,7 +70,7 @@ public class AddressController extends BaseController<AddressController.AddressU
     }
 
     private void doCreateAddress(final int callingId, Address address) {
-        mRestApiClient.addressService()
+        mRestApiClient.addressServiceNew()
                 .create(address)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
