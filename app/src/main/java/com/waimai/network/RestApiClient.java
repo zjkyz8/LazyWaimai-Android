@@ -18,7 +18,7 @@ import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import com.waimai.context.AppConfig;
 import com.waimai.network.service.AccountService;
-import com.cheikh.lazywaimai.network.service.AddressService;
+import com.waimai.network.service.AddressService;
 import com.cheikh.lazywaimai.network.service.BusinessService;
 import com.waimai.network.service.CommonService;
 import com.cheikh.lazywaimai.network.service.OrderService;

@@ -28,7 +28,7 @@ import com.waimai.ui.activity.RegisterActivity;
 import com.waimai.ui.activity.SettingActivity;
 import com.cheikh.lazywaimai.ui.activity.SettleActivity;
 import com.waimai.ui.activity.UpdateAddressActivity;
-import com.cheikh.lazywaimai.ui.activity.UserProfileActivity;
+import com.waimai.ui.activity.UserProfileActivity;
 import com.waimai.ui.fragment.RegisterFirstStepFragment;
 import com.waimai.ui.fragment.RegisterSecondStepFragment;
 import com.waimai.ui.fragment.RegisterThirdStepFragment;

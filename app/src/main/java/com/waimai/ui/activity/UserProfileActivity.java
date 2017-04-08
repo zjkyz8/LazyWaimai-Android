@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import android.content.Intent;
 import com.waimai.R;
@@ -9,10 +9,6 @@ import com.waimai.controller.UserController;
 import com.waimai.ui.Display;
 import com.waimai.util.ContentView;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
 @ContentView(R.layout.activity_user_profile)
 public class UserProfileActivity extends BaseActivity<UserController.UserUiCallbacks>
         implements UserController.UserUi {
