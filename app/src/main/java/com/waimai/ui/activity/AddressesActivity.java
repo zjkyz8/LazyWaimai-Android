@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -30,10 +30,6 @@ import static com.waimai.util.Constants.ClickType.CLICK_TYPE_ADDRESS_CLICKED;
 import static com.waimai.util.Constants.ClickType.CLICK_TYPE_DELETE_BTN_CLICKED;
 import static com.waimai.util.Constants.ClickType.CLICK_TYPE_EDIT_BTN_CLICKED;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
 @ContentView(R.layout.activity_addresses)
 public class AddressesActivity extends BaseActivity<AddressController.AddressUiCallbacks>
         implements AddressController.AddressListUi, ViewEventListener<Address> {

@@ -37,7 +37,7 @@ public class AddressController extends BaseController<AddressController.AddressU
     }
 
     private void fetchAddressList(final int callingId) {
-        mRestApiClient.addressService()
+        mRestApiClient.addressServiceNew()
                 .addresses()
                 .subscribeOn(Schedulers.io())
                 .doOnSubscribe(new Action0() {

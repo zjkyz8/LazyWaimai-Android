@@ -153,6 +153,11 @@ public class RestApiClient {
         return getByProxy(AddressService.class);
     }
 
+    public AddressService addressServiceNew() {
+        return getByProxyNew(AddressService.class);
+    }
+
+
     public BusinessService businessServiceNew() {
         return getByProxyNew(BusinessService.class);
     }
