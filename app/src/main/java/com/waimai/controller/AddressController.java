@@ -118,7 +118,7 @@ public class AddressController extends BaseController<AddressController.AddressU
     }
 
     private void doDeleteAddress(final int callingId, final Address address) {
-        mRestApiClient.addressService()
+        mRestApiClient.addressServiceNew()
                 .delete(address.getId())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
