@@ -150,19 +150,12 @@ public class RestApiClient {
     }
 
     public AddressService addressService() {
-        return getByProxy(AddressService.class);
-    }
-
-    public AddressService addressServiceNew() {
         return getByProxyNew(AddressService.class);
     }
 
 
-    public BusinessService businessServiceNew() {
-        return getByProxyNew(BusinessService.class);
-    }
     public BusinessService businessService() {
-        return getByProxy(BusinessService.class);
+        return getByProxyNew(BusinessService.class);
     }
 
     public OrderService orderService() {

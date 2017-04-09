@@ -37,7 +37,7 @@ public class AddressController extends BaseController<AddressController.AddressU
     }
 
     private void fetchAddressList(final int callingId) {
-        mRestApiClient.addressServiceNew()
+        mRestApiClient.addressService()
                 .addresses()
                 .subscribeOn(Schedulers.io())
                 .doOnSubscribe(new Action0() {
@@ -70,7 +70,7 @@ public class AddressController extends BaseController<AddressController.AddressU
     }
 
     private void doCreateAddress(final int callingId, Address address) {
-        mRestApiClient.addressServiceNew()
+        mRestApiClient.addressService()
                 .create(address)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -94,7 +94,7 @@ public class AddressController extends BaseController<AddressController.AddressU
     }
 
     private void doChangeAddress(final int callingId, Address address) {
-        mRestApiClient.addressServiceNew()
+        mRestApiClient.addressService()
                 .change(address.getId(), address)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -118,7 +118,7 @@ public class AddressController extends BaseController<AddressController.AddressU
     }
 
     private void doDeleteAddress(final int callingId, final Address address) {
-        mRestApiClient.addressServiceNew()
+        mRestApiClient.addressService()
                 .delete(address.getId())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

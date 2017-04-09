@@ -366,7 +366,7 @@ public class UserController extends BaseController<UserController.UserUi, UserCo
      * @param size
      */
     private void doFetchFavorites(final int callingId, final int page, int size) {
-        mRestApiClient.accountService()
+        mRestApiClient.accountServiceNew()
                 .favorites(page, size)
                 .map(new Func1<ResultsPage<Favorite>, List<Favorite>>() {
                     @Override

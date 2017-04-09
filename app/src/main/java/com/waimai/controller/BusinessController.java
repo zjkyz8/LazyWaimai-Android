@@ -96,7 +96,7 @@ public class BusinessController extends BaseController<BusinessController.Busine
      * @param page
      */
     private void doFetchBusinesses(final int callingId, final int page, int size) {
-        mRestApiClient.businessServiceNew()
+        mRestApiClient.businessService()
                 .businesses(page, size)
                 .map(new Func1<ResultsPage<Business>, List<Business>>() {
                     @Override
@@ -141,7 +141,7 @@ public class BusinessController extends BaseController<BusinessController.Busine
      * @param business
      */
     private void doFetchProducts(final int callingId, Business business) {
-        mRestApiClient.businessServiceNew()
+        mRestApiClient.businessService()
                 .products(business.getId())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

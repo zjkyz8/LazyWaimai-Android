@@ -19,6 +19,6 @@ public interface BusinessService {
     @GET("restaurant/{bid}/products")
     Observable<List<ProductCategory>> products(@Path("bid") String businessId);
 
-    @POST("businesses/{bid}/favorite")
+    @POST("restaurant/{bid}/favorite")
     Observable<Favorite> favorite(@Path("bid") String businessId);
 }
