@@ -30,10 +30,6 @@ import com.cheikh.lazywaimai.util.EventUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;
 import static com.waimai.util.Constants.HttpCode.HTTP_UNAUTHORIZED;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
 public class OrderController extends BaseController<OrderController.OrderUi, OrderController.OrderUiCallbacks> {
 
     private static final int PAGE_SIZE = 10;
@@ -214,7 +210,7 @@ public class OrderController extends BaseController<OrderController.OrderUi, Ord
      */
     private void doOrderSettle(final int callingId, boolean isOnlinePayment) {
         ShoppingCart shoppingCart = ShoppingCart.getInstance();
-        mRestApiClient.orderService()
+        mRestApiClient.orderServiceNew()
                 .settle(shoppingCart.getBusinessId(), isOnlinePayment ? 1 : 0,
                         new Gson().toJson(shoppingCart.getShoppingList()))
                 .subscribeOn(Schedulers.io())

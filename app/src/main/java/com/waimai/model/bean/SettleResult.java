@@ -4,10 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-/**
- * author：cheikh on 16/5/11 14:25
- * email：wanghonghi@126.com
- */
 public class SettleResult {
 
     public class BookingTime {

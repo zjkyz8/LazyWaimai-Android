@@ -26,7 +26,7 @@ import com.cheikh.lazywaimai.ui.activity.OrderDetailActivity;
 import com.cheikh.lazywaimai.ui.activity.PaymentActivity;
 import com.waimai.ui.activity.RegisterActivity;
 import com.waimai.ui.activity.SettingActivity;
-import com.cheikh.lazywaimai.ui.activity.SettleActivity;
+import com.waimai.ui.activity.SettleActivity;
 import com.waimai.ui.activity.UpdateAddressActivity;
 import com.waimai.ui.activity.UserProfileActivity;
 import com.waimai.ui.fragment.RegisterFirstStepFragment;

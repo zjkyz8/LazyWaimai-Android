@@ -1,4 +1,4 @@
-package com.cheikh.lazywaimai.ui.activity;
+package com.waimai.ui.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -30,10 +30,6 @@ import com.cheikh.lazywaimai.widget.AddressView;
 import com.cheikh.lazywaimai.widget.MultiStateView;
 import com.cheikh.lazywaimai.widget.OrderReportView;
 
-/**
- * author: cheikh.wang on 17/1/5
- * email: wanghonghi@126.com
- */
 @ContentView(R.layout.activity_settle)
 public class SettleActivity extends BaseActivity<OrderController.OrderUiCallbacks>
         implements OrderController.OrderSettleUi {

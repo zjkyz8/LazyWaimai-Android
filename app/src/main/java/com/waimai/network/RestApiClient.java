@@ -162,6 +162,10 @@ public class RestApiClient {
         return getByProxy(OrderService.class);
     }
 
+    public OrderService orderServiceNew() {
+        return getByProxyNew(OrderService.class);
+    }
+
     public CommonService commonService() {
         return getByProxy(CommonService.class);
     }
